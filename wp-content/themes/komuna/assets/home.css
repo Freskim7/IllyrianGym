@@ -1,0 +1,184 @@
+.home-body {
+    padding: 0 280px;
+}
+
+.home-news-list .news-list {
+        grid-template-columns: repeat(4, 1fr) !important;
+}
+.home-news-list .page-container-docs,
+.home-event-list .page-container-docs,
+.home-njoftim-list .page-container-docs {
+        gap: 0 !important;
+}
+.home-news-list .docs-pageSection,
+.home-event-list .docs-pageSection,
+.home-njoftim-list .docs-pageSection {
+        margin-bottom: 0 !important;
+}
+
+.news-date-row .elementor-shortcode {
+    color: #0048B8;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.news-date-row .elementor-element .elementor-icon-wrapper{
+        display: flex;
+}
+
+.slider-home .elementor-button {
+    cursor: pointer;
+}
+
+.home-body-slider .swiper-slide-inner {
+    padding: 50px 70px !important;
+	padding-right: 1200px !important;
+}
+
+.stats-one > .elementor-widget-container > .elementor-loop-container {
+    height: 100%;
+}
+
+.stats-one > .elementor-widget-container > .elementor-loop-container > .e-loop-item:nth-child(1n + 1) {
+    height: 100%;
+}
+
+.stats-one > .elementor-widget-container > .elementor-loop-container > .e-loop-item:nth-child(1n + 1) .stats-box {
+    background-color: #006dda;
+	height: 100%;
+}
+
+.stats-box {
+	transition: transform .3s ease, -webkit-transform .3s ease;
+}
+
+.stats-box:hover {
+    transform: translateY(-5px);
+}
+
+.stats-two > .elementor-widget-container > .elementor-loop-container {
+    height: 100%;
+}
+
+.stats-two > .elementor-widget-container > .elementor-loop-container > .e-loop-item:nth-child(1n + 1) {
+    height: 100%;
+}
+
+.stats-two > .elementor-widget-container > .elementor-loop-container > .e-loop-item:nth-child(1n + 1) .stats-box {
+    background-color: #035096;
+	height: 100%;
+}
+
+.stats-second-row > .elementor-widget-container > .elementor-loop-container > .e-loop-item:nth-child(3n + 1) .stats-box {
+    background-color: #153a65;
+	height: 100%;
+}
+
+.stats-second-row > .elementor-widget-container > .elementor-loop-container > .e-loop-item:nth-child(2) .stats-box {
+    background-color: #003689;
+	height: 100%;
+}
+
+.stats-second-row > .elementor-widget-container > .elementor-loop-container > .e-loop-item:nth-child(3) .stats-box {
+    background-color: #0080cb;
+	height: 100%;
+}
+
+
+@media (min-width: 1601px) and (max-width: 1800px) {
+    .home-body {
+    padding: 0 240px;
+}
+.home-body-slider .swiper-slide-inner {
+    padding: 50px 240px !important;
+}
+}
+
+@media (min-width: 1501px) and (max-width: 1600px) {
+     .home-body {
+     padding: 0 200px;
+}
+.home-body-slider .swiper-slide-inner {
+    padding: 50px 200px !important;
+}
+}
+
+@media (min-width: 1401px) and (max-width: 1500px) {
+     .home-body {
+     padding: 0 180px;
+}
+.home-body-slider .swiper-slide-inner {
+    padding: 50px 180px !important;
+}
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+     .home-body {
+     padding: 0 140px;
+}
+
+.home-body-slider .swiper-slide-inner {
+    padding: 50px 140px !important;
+}
+
+.services-loop .elementor-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+}
+
+.news-list-home .news-box .photo-box {
+    width: 340px !important;
+    max-width: 340px !important;
+    min-width: 340px !important;
+}
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+     .home-body {
+     padding: 0 80px;
+}
+
+.home-body-slider .swiper-slide-inner {
+    padding: 50px 80px !important;
+}
+
+.services-loop .elementor-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+}
+
+.news-list-home .news-box .photo-box {
+    width: 300px !important;
+    max-width: 300px !important;
+    min-width: 300px !important;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .home-body {
+        padding: 0 30px;
+    }
+
+.home-body-slider .swiper-slide-inner {
+    padding: 20px 30px !important;
+}
+    
+    .news-list-home .elementor-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+@media (max-width: 767px){
+   .home-body {
+    padding: 0 30px !important;
+} 
+	
+	.home-news-list .news-list {
+               grid-template-columns: repeat(1, 1fr) !important;
+      }
+
+.home-body-slider .swiper-slide-inner {
+    padding: 20px 30px !important;
+}
+}

@@ -1,0 +1,232 @@
+
+
+
+<?php 
+$page_url        = get_permalink();
+$post_type       = isset($args[0]['post_type']) ? $args[0]['post_type'] : 'post';
+$per_page        = (int) isset($args[0]['per_page']) ? $args[0]['per_page'] : 12;
+$date_filter     = (bool) isset($args[0]['filter_date']) ? $args[0]['filter_date'] : false;
+$show_taxonomies = (bool) isset($args[0]['show_taxonomies']) ? $args[0]['show_taxonomies'] : false;
+$show_search     = (bool) isset($args[0]['show_search']) ? $args[0]['show_search'] : false;
+$nr_years        = (bool) isset($args[0]['nr_years']) ? $args[0]['nr_years'] : 5;
+$prefiltered_tax = isset($args[0]['pre_filter_term']) ? $args[0]['pre_filter_term'] : false;
+$use_parent      = (bool) isset($args[0]['pre_filter_parent']) ? $args[0]['pre_filter_parent'] : false;
+$tax_by_query    = (bool) isset($args[0]['tax_by_query']) ? $args[0]['tax_by_query'] : false;
+$template_id     = isset($args[0]['template_id']) ? $args[0]['template_id'] : false;
+$ajax            = (bool) isset($args[0]['ajax']) ? $args[0]['ajax'] : false;
+
+// $paged = get_query_var('paged') ? get_query_var('paged') : 1;
+
+// if(isset(get_query_var( 'paged', $default:mixed )))
+
+global $paged;
+if ( get_query_var( 'paged' ) ) {
+    $paged = get_query_var( 'paged' );
+} elseif ( get_query_var( 'page' ) ) {
+    $paged = get_query_var( 'page' );
+} else {
+    $paged = 1;
+}
+
+// var_dump($ajax);
+
+$taxonomy = $post_type == 'post' ? 'categories' : $post_type.'-category';
+
+$curr_tax = isset($_GET['tax']) ? $_GET['tax'] : null;
+
+$date_year = isset($_GET['date-year']) ? $_GET['date-year'] : null;
+$search = isset($_GET['search_text']) ? $_GET['search_text'] : null;
+// var_dump($use_parent);
+// if($curr_tax != '' || $date_year){
+//     $paged = 1;
+//     // add_query_arg( ['page' => $paged] );
+//     set_query_var( 'page', $paged );
+//     set_query_var( 'paged', $paged );
+// }
+
+// var_dump($paged);
+
+$tax_query = array();
+
+// taxonomies variable
+$taxonomies = array();
+
+
+$query_args = array(
+    'post_type'      => $post_type,
+    'posts_per_page' => $per_page,
+    'paged' => $paged,
+    's'     => $search
+);
+
+if($prefiltered_tax){
+    $query_args['tax_query'][] = array(
+        'relation' => 'AND',
+        array(
+            'taxonomy' => $taxonomy,
+            'field' => 'slug',
+            'terms' => array($prefiltered_tax)
+        )
+    );
+}
+
+if($curr_tax){
+    $query_args['tax_query'][] = array(
+        array(
+            'taxonomy' => $taxonomy,
+            'field' => 'slug',
+            'terms' => array($curr_tax)
+        )
+    );
+}
+
+if($date_year){
+    $query_args['year'] = $date_year;
+}
+
+$query = new WP_Query($query_args);
+
+// check if taxonomies should be shown
+if($show_taxonomies){
+    // check if taxonomy exists
+    if(get_taxonomy($taxonomy)){
+        // fill $taxonomies
+        // Get taxonomies from parent
+        if($use_parent && $use_parent != 'false'){
+            $term = get_term_by( 'slug', $prefiltered_tax, $taxonomy );
+            $taxonomies = get_term_children($term->term_id, $taxonomy);
+        }else{
+            // Get taxonomies from the query posts if query has posts
+            if($tax_by_query && $query->have_posts()){
+                $taxonomies = get_terms( [
+                    'taxonomy'   => $taxonomy,
+                    'object_ids' => wp_list_pluck( $query->posts, 'ID' ),
+                    'hide_empty' => true,
+                ] );
+            }else{
+                $taxonomies = get_terms( array(
+                    'taxonomy' => $taxonomy,
+                    'hide_empty' => true,
+                ));
+            }
+        }
+    }
+}
+
+?>
+<div class="ItemsFilter <?php echo $ajax ? 'ItemsFilter-Ajax' : '' ?>" style="color:#000; font-size: 44px;">
+    
+    <div class="ItemsFilter-wrapper flex">
+        <?php if($show_search || $show_taxonomies): ?>
+        <div class="col-3">
+            <?php if($show_search): ?>
+                <div class="search-wrapper">
+                    <form role="search" method="get" action="<?php echo $page_url ?>" id="searchform">
+                        <div class="search-input">
+                            <input type="text" name="search_text" id="search-input" placeholder="Search..." />
+                            <button type="submit" id="searchsubmit">Search</button>
+                        </div>
+                    </form>
+                </div>
+            <?php endif; ?>
+            <?php if($show_taxonomies): ?>
+            <div class="taxonomies-wrapper">
+                <ul class="taxonomies-list">
+                    <li class="taxonomies-list-item"> 
+                        <a class="filter-item" data-slug="all" href="<?php echo $page_url ?>?tax=" >All</a>
+                    </li>
+                <?php foreach($taxonomies as $tax): 
+                    if(!isset($tax->slug)):
+                        $tax = get_term_by('id', $tax, $taxonomy);
+                    endif;
+                ?>
+                    <li class="taxonomies-list-item"> 
+                        <a class="filter-item" data-slug="<?php echo $tax->slug ?>" href="<?php echo $page_url ?>?tax=<?php echo $tax->slug ?>" ><?php echo $tax->name ?></a>
+                    </li>
+                <?php endforeach; ?>
+                </ul>
+            </div>
+            <?php endif; ?>
+        </div>
+        <?php endif; ?>
+        <div class="<?php echo $show_taxonomies ? 'col-9' : 'col-12' ?> posts-wrapper">
+            <?php if($date_filter): ?>
+            <div class="date-filters">
+                <ul class="date-filters-list">
+                    <li><a class="filter-item" href="<?php echo $page_url ?>?date-year=">All</a></li>
+                <?php 
+                    $count = $nr_years;
+                    $date_year = date("Y");
+                    $date_future = date("Y") - $count;
+
+                    for($i = (int)$date_year; $i >= $date_future; --$i): 
+                ?>
+                    <li><a class="filter-item" href="<?php echo $page_url ?>?date-year=<?php echo $i ?>"><?php echo $i ?></a></li>
+                <?php
+                    endfor;
+                ?>
+                </ul>
+            </div>
+            <?php endif; ?>
+            <div class="posts-wrapper-inner">
+            <?php 
+                
+                while($query->have_posts()): $query->the_post(); 
+            ?>
+            <?php if($template_id): ?>
+                <div class="ItemsFilter-item item-<?php the_ID( ) ?>">
+                <?php echo do_shortcode("[elementor-template id='$template_id']") ?>
+                </div>
+            <?php else: ?>
+                <a href="<?php echo the_permalink() ?>">
+                    <div class="ItemsFilter-item item-<?php the_ID() ?>">
+                        <div class="ItemsFilter-item-image">
+                            <?php the_post_thumbnail( 'medium' ); ?>
+                        </div>
+                        <div class="ItemsFilter-item-content">
+                            <h2 class="ItemsFilter-item-content-title"><?php the_title() ?></h2>
+                            <div class="ItemsFilter-item-content-excerpt">
+                                <?php the_excerpt(); ?>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            <?php endif; ?>
+                
+            <?php
+                endwhile; 
+            ?>
+            </div>
+            <div class="pagination">
+                <div class='dpn-pagination'>
+                <?php
+                    // echo paginate_links(array(
+                    //     'total' => $query->max_num_pages,
+                    //     'current' => max( 1, $paged ),
+                    //     'prev_text' => __('<div class="preious-page">Prev</div>'),
+                    //     'next_text' => __('<div class="next-page">Next</div>')
+                    // )) ;
+
+                    echo paginate_links(array(
+                        'base'         => str_replace( 999999999, '%#%', esc_url( get_pagenum_link( 999999999 ) ) ),
+                        'total'        => $query->max_num_pages,
+                        'current'      => max( 1, get_query_var( 'paged' ) ),
+                        'format'       => '?paged=%#%',
+                        'show_all'     => false,
+                        'type'         => 'plain',
+                        'end_size'     => 2,
+                        'mid_size'     => 1,
+                        'prev_next'    => true,
+                        'prev_text'    => sprintf( '<i></i> %1$s', __( 'Prev', 'filter-items' ) ),
+                        'next_text'    => sprintf( '%1$s <i></i>', __( 'Next', 'filter-items' ) ),
+                        'add_args'     => false,
+                        'add_fragment' => '',
+                    )) ;
+                ?>
+                </div>
+            </div>
+            <?php wp_reset_postdata() ?>
+        </div>
+    </div>
+
+</div>

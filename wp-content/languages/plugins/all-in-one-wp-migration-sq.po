@@ -1,0 +1,1373 @@
+# Translation of Plugins - All-in-One WP Migration and Backup - Stable (latest release) in Albanian
+# This file is distributed under the same license as the Plugins - All-in-One WP Migration and Backup - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-02-18 11:05:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: sq_AL\n"
+"Project-Id-Version: Plugins - All-in-One WP Migration and Backup - Stable (latest release)\n"
+
+#: lib/model/import/class-ai1wm-import-validate.php:65
+msgid "Unpacking configuration..."
+msgstr "Po shpaketohet formësim…"
+
+#: lib/model/import/class-ai1wm-import-database-file.php:118
+msgid "Database unpacked."
+msgstr "Baza e të dhënave u shpaketua."
+
+#: lib/model/import/class-ai1wm-import-check-encryption.php:54
+msgid "Importing an encrypted backup is not supported on this server. The process cannot continue. Technical details: https://help.servmask.com/knowledgebase/unable-to-encrypt-and-decrypt-backups/"
+msgstr "Në këtë shërbyes s’mbulohet importim kopjeruajtjeje të fshehtëzuar. Procesi s’mund të vazhdojë. Hollësi teknike: https://help.servmask.com/knowledgebase/unable-to-encrypt-and-decrypt-backups/"
+
+#: lib/model/import/class-ai1wm-import-check-compression.php:69
+msgid "Compressed backup detected. Compression will be handled automatically."
+msgstr "U pikas kopjeruajtje e ngjeshur. Ngjeshja do të trajtohet automatikisht."
+
+#: lib/model/import/class-ai1wm-import-check-compression.php:56
+msgid ""
+"Importing a compressed backup is not supported on this server.\n"
+"\t\t\t\t\t\t\tPlease ensure <strong>%s</strong> extension is enabled. <a href=\"https://help.servmask.com/knowledgebase/compressed-backups/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"Në këtë shërbyes s’mbulohet importim kopjeruajtjeje të fshehtëzuar.\n"
+"\t\t\t\t\t\t\tJu lutemi, siguroni që  të jetë aktivizuar zgjerimi <strong>%s</strong>. <a href=\"https://help.servmask.com/knowledgebase/compressed-backups/\" target=\"_blank\">Hollësi teknike</a>"
+
+#: lib/model/export/class-ai1wm-export-config-file.php:37
+msgid "Archiving configuration..."
+msgstr "Po arkivohet formësim…"
+
+#: lib/controller/class-ai1wm-backups-controller.php:260
+msgid "Download a file from encrypted backup is not supported on this server. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/unable-to-encrypt-and-decrypt-backups/\" target=\"_blank\">Technical details</a>"
+msgstr "Në këtë shërbyes s’mbulohet shkarkim i një kartele nga një kopjeruajtjeje të fshehtëzuar. Procesi s’mund të vazhdojë. n<a href=\"https://help.servmask.com/knowledgebase/unable-to-encrypt-and-decrypt-backups/\" target=\"_blank\">Hollësi teknike</a>"
+
+#: lib/view/common/leave-feedback.php:64
+msgid "I agree to let All-in-One WP Migration use my <strong>email</strong> to respond to my request."
+msgstr "Pajtohem që ta lë All-in-One WP Migration për përdorë <strong>email-in</strong> tim për t’iu përgjigjur kërkesë sime."
+
+#: lib/model/import/class-ai1wm-import-upload.php:186
+msgid ""
+"An unknown error (code: %s) occurred during the file upload. The process cannot continue.\n"
+"\t\t\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"Ndodhi një gabim i panjohur (kod: %s) gjatë ngarkimit të kartelës. Procesi s’mund të vazhdojë.\n"
+"\t\t\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">Hollësi teknike</a>"
+
+#: lib/model/import/class-ai1wm-import-upload.php:171
+msgid ""
+"A PHP extension blocked this file upload. The process cannot continue.\n"
+"\t\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"Këtë ngarkim kartele e bllokoi një zgjerim PHP. Procesi s’mund të vazhdojë.\n"
+"\t\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">Hollësi teknike</a>"
+
+#: lib/model/import/class-ai1wm-import-upload.php:158
+msgid ""
+"Could not save the uploaded file. Please check file permissions and try again.\n"
+"\t\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"S’u ruajt dot kartela e ngarkuar. Ju lutemi, kontrolloni leje mbi kartela dhe riprovoni.\n"
+"\t\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">Hollësi teknike</a>"
+
+#: lib/model/import/class-ai1wm-import-upload.php:145
+msgid ""
+"No temporary folder is available on the server. The process cannot continue.\n"
+"\t\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"Në shërbyes s’ka dosje të përkohshme të gatshme. Procesi s’mund të vazhdojë.\n"
+"\t\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">Hollësi teknike</a>"
+
+#: lib/model/import/class-ai1wm-import-upload.php:132
+msgid ""
+"The uploaded file is too large for this server. The process cannot continue.\n"
+"\t\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"Kartela e ngarkuar është shumë e madhe për këtë shërbyes. Procesi s’mund të vazhdojë.\n"
+"\t\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">Hollësi teknike</a>"
+
+#: lib/model/import/class-ai1wm-import-upload.php:111
+msgid ""
+"Could not upload the file because %s. The process cannot continue.\n"
+"\t\t\t\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"S’u ngarkua dot kartela, ngaqë %s. Procesi s’mund të vazhdojë.\n"
+"\t\t\t\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">Hollësi teknike</a>"
+
+#: lib/model/import/class-ai1wm-import-upload.php:89
+msgid ""
+"Invalid file data. Please ensure your file is a <strong>.wpress</strong> backup created with All-in-One WP Migration.\n"
+"\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/invalid-backup-file/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"Të dhëna kartele të pavlefshme. Ju lutemi, sigurohuni se kartela juaj është një kopjeruajtje <strong>.wpress</strong> e krijuar me All-in-One WP Migration.\n"
+"\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/invalid-backup-file/\" target=\"_blank\">Hollësi teknike</a>"
+
+#: lib/model/import/class-ai1wm-import-upload.php:59
+msgid ""
+"The uploaded file is missing an error code. The process cannot continue.\n"
+"\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"Kartelës së ngarkuar i mungon një kod gabimi. Procesi s’mund të vazhdojë.\n"
+"\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">Hollësi teknike</a>"
+
+#: lib/model/import/class-ai1wm-import-upload.php:42
+msgid ""
+"The uploaded file is missing a temporary path. The process cannot continue.\n"
+"\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"Kartelës së ngarkuar i mungon një shteg i përkohshëm. Procesi s’mund të vazhdojë.\n"
+"\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">Hollësi teknike</a>"
+
+#: lib/view/export/advanced-settings.php:134
+msgid "Exclude plugins"
+msgstr "Përjashtoni shtojca"
+
+#: lib/view/export/advanced-settings.php:127
+msgid "Exclude must-use plugins"
+msgstr "Përjashtoni shtojca “must-use”"
+
+#: lib/view/export/advanced-settings.php:118
+msgid "Exclude themes"
+msgstr "Përjashtoni tema"
+
+#: lib/view/export/advanced-settings.php:112
+msgid "Exclude media library"
+msgstr "Përjashtoni mediatekë"
+
+#: lib/view/export/advanced-settings.php:108
+msgid "File Options"
+msgstr "Mundësi Kartelash"
+
+#: lib/view/export/advanced-settings.php:89
+msgid "Exclude database"
+msgstr "Përjashtoni bazë të dhënash"
+
+#: lib/view/export/advanced-settings.php:73
+msgid "Database Options"
+msgstr "Mundësi Baze të Dhënash"
+
+#: lib/view/export/advanced-settings.php:41
+msgid "Security Options"
+msgstr "Mundësi Sigurie"
+
+#. translators: 1: Link to archive, 2: Archive title, 3: File name, 4: Archive
+#. title, 5: File size.
+#: lib/model/export/class-ai1wm-export-download.php:67
+msgid ""
+"<a href=\"%1$s\" class=\"ai1wm-button-green ai1wm-emphasize ai1wm-button-download\" title=\"%2$s\" download=\"%3$s\">\n"
+"\t\t\t\t\t\t\t<span>Download %2$s</span>\n"
+"\t\t\t\t\t\t\t<em>Size: %4$s</em>\n"
+"\t\t\t\t\t\t\t</a>"
+msgstr ""
+"<a href=\"%1$s\" class=\"ai1wm-button-green ai1wm-emphasize ai1wm-button-download\" title=\"%2$s\" download=\"%3$s\">\n"
+"\t\t\t\t\t\t\t<span>Shkarkoni %2$s</span>\n"
+"\t\t\t\t\t\t\t<em>Madhësi: %4$s</em>\n"
+"\t\t\t\t\t\t\t</a>"
+
+#. Plugin Name of the plugin
+#: all-in-one-wp-migration.php
+msgid "All-in-One WP Migration and Backup"
+msgstr "Migrim dhe Kopjeruajtje All-in-One WP"
+
+#. translators: 1: Admin url, 2: Url
+#: lib/view/import/done.php:50
+msgid ""
+"» <a class=\"ai1wm-no-underline\" href=\"%1$s\" target=\"_blank\">Save permalinks structure</a><br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"https://wordpress.org/support/view/plugin-reviews/all-in-one-wp-migration?rate=5#postform\" target=\"_blank\">Review your migration experience</a><br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"%2$s\" target=\"_blank\">Protect your site with real-time threat protection</a>"
+msgstr ""
+"» <a class=\"ai1wm-no-underline\" href=\"%1$s\" target=\"_blank\">Ruani strukturë permalidhjesh</a><br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"https://wordpress.org/support/view/plugin-reviews/all-in-one-wp-migration?rate=5#postform\" target=\"_blank\">Shqyrtoni përvojën e migrimit tuaj</a><br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"%2$s\" target=\"_blank\">Mbroni sajtin tuaj me mbrojtje të atypëratyshme nga kërcënime</a>"
+
+#. translators: Url
+#: lib/view/import/avada.php:51
+msgid "» <a class=\"ai1wm-no-underline\" href=\"%s\" target=\"_blank\">Protect your site with real-time threat protection</a>"
+msgstr "» <a class=\"ai1wm-no-underline\" href=\"%s\" target=\"_blank\">Mbroni sajtin tuaj me mbrojtje të atypëratyshme nga kërcënime</a>"
+
+#: lib/view/main/multisite-notice.php:36
+msgid "WordPress Multisite requires our All-in-One WP Migration Multisite Extension. Get it here: "
+msgstr "Instancat WordPress Shumësajtësh lypin shtojcën tonë All-in-One WP Migration Multisite. Merreni këtu: "
+
+#. translators: Backups folder path.
+#. translators: Storage folder path.
+#: lib/view/main/backups-path-notice.php:39
+#: lib/view/main/storage-path-notice.php:39
+msgid "Could not create <strong>%s</strong> folder. Please ensure the parent folder has read/write/execute permissions (0777)."
+msgstr "S’u krijua dot dosja <strong>%s</strong>. Ju lutemi, sigurohuni se dosja mëmë ka leje leximi/shkrimi/ekzekutimi (0777)."
+
+#. translators: File name.
+#: lib/view/main/backups-htaccess-notice.php:39
+#: lib/view/main/backups-index-html-notice.php:39
+#: lib/view/main/backups-index-php-notice.php:39
+#: lib/view/main/backups-robots-txt-notice.php:39
+#: lib/view/main/backups-webconfig-notice.php:39
+#: lib/view/main/storage-htaccess-notice.php:39
+#: lib/view/main/storage-index-html-notice.php:39
+#: lib/view/main/storage-index-php-notice.php:39
+#: lib/view/main/storage-webconfig-notice.php:39
+#: lib/view/main/wordpress-htaccess-notice.php:39
+msgid "Could not create <strong>%s</strong> file. Please ensure the parent folder has read/write permissions."
+msgstr "S’u krijua dot kartela <strong>%s</strong>. Ju lutemi, sigurohuni se dosja mëmë ka leje leximi/shkrimi."
+
+#. translators: Max upload file size
+#: lib/view/import/pro.php:38
+msgid "Your host restricts uploads to <strong>%s</strong>."
+msgstr "Streha juaj i kufizon ngarkimet deri në <strong>%s</strong>."
+
+#. translators: 1: Admin url, 2: Url
+#: lib/view/import/oxygen.php:51
+msgid ""
+"» <a class=\"ai1wm-no-underline\" href=\"%1$s\" target=\"_blank\">Save permalinks structure</a>.<br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"https://classic.oxygenbuilder.com/documentation/other/importing-exporting/#resigning\" target=\"_blank\">Re-sign Oxygen Builder shortcodes</a>.<br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"https://wordpress.org/support/view/plugin-reviews/all-in-one-wp-migration?rate=5#postform\" target=\"_blank\">Review your migration experience</a>.<br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"%2$s\" target=\"_blank\">Protect your site with real-time threat protection</a>"
+msgstr ""
+"» <a class=\"ai1wm-no-underline\" href=\"%1$s\" target=\"_blank\">Ruani strukturë permalidhjesh</a>.<br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"https://classic.oxygenbuilder.com/documentation/other/importing-exporting/#resigning\" target=\"_blank\">Rinënshkruani kode të shkurtër Oxygen Builder</a>.<br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"https://wordpress.org/support/view/plugin-reviews/all-in-one-wp-migration?rate=5#postform\" target=\"_blank\">Shqyrtoni përvojën tuaj të migrimit</a>.<br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"%2$s\" target=\"_blank\">Mbroni sajtin tuaj me mbrojtje të atypëratyshme nga kërcënime</a>"
+
+#. translators: Url
+#: lib/view/import/oxygen.php:36
+msgid ""
+"» Permalinks are set to default. <a class=\"ai1wm-no-underline\" href=\"https://help.servmask.com/knowledgebase/permalinks-are-set-to-default/\" target=\"_blank\">Why?</a><br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"https://classic.oxygenbuilder.com/documentation/other/importing-exporting/#resigning\" target=\"_blank\">Re-sign Oxygen Builder shortcodes</a>.<br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"https://wordpress.org/support/view/plugin-reviews/all-in-one-wp-migration?rate=5#postform\" target=\"_blank\">Review your migration experience</a>.<br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"%s\" target=\"_blank\">Protect your site with real-time threat protection</a>"
+msgstr ""
+"» Permalidhjet janë vënë sipas parazgjedhjeve. <a class=\"ai1wm-no-underline\" href=\"https://help.servmask.com/knowledgebase/permalinks-are-set-to-default/\" target=\"_blank\">Why?</a><br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"https://classic.oxygenbuilder.com/documentation/other/importing-exporting/#resigning\" target=\"_blank\">Rinënshkruani kode të shkurtër Oxygen Builder</a>.<br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"https://wordpress.org/support/view/plugin-reviews/all-in-one-wp-migration?rate=5#postform\" target=\"_blank\">Shqyrtoni përvojën tuaj të migrimit</a>.<br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"%s\" target=\"_blank\">Mbroni sajtin tuaj me mbrojtje të atypëratyshme nga kërcënime</a>"
+
+#. translators: Url
+#: lib/view/import/done.php:36
+msgid ""
+"» Permalinks are set to default. <a class=\"ai1wm-no-underline\" href=\"https://help.servmask.com/knowledgebase/permalinks-are-set-to-default/\" target=\"_blank\">Why?</a><br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"https://wordpress.org/support/view/plugin-reviews/all-in-one-wp-migration?rate=5#postform\" target=\"_blank\">Review your migration experience</a>.<br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"%s\" target=\"_blank\">Protect your site with real-time threat protection</a>"
+msgstr ""
+"» Permalidhjet janë vënë sipas parazgjedhjeve. <a class=\"ai1wm-no-underline\" href=\"https://help.servmask.com/knowledgebase/permalinks-are-set-to-default/\" target=\"_blank\">Pse?</a><br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"https://wordpress.org/support/view/plugin-reviews/all-in-one-wp-migration?rate=5#postform\" target=\"_blank\">Shqyrtoni përvojën tuaj të migrimit</a>.<br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"%s\" target=\"_blank\">Mbroni sajtin tuaj me mbrojtje të atypëratyshme nga kërcënime</a>"
+
+#: lib/view/import/avada.php:47
+msgid "» <a class=\"ai1wm-no-underline\" href=\"https://wordpress.org/support/view/plugin-reviews/all-in-one-wp-migration?rate=5#postform\" target=\"_blank\">Review your migration experience</a>.<br />"
+msgstr "» <a class=\"ai1wm-no-underline\" href=\"https://wordpress.org/support/view/plugin-reviews/all-in-one-wp-migration?rate=5#postform\" target=\"_blank\">Shqyrtoni përvojën tuaj në migrim</a>.<br />"
+
+#. translators: Url
+#: lib/view/import/avada.php:37
+msgid "» <a class=\"ai1wm-no-underline\" href=\"%s\" target=\"_blank\">Save permalinks structure</a>.<br />"
+msgstr "» <a class=\"ai1wm-no-underline\" href=\"%s\" target=\"_blank\">Ruani strukturë permalidhjesh</a>.<br />"
+
+#: lib/view/export/help-section.php:38
+msgid "Hints"
+msgstr "Ndihmëza"
+
+#: lib/view/export/help-section.php:34
+msgid "Use this screen to export your database, media, themes, and plugins into one .wpress file. Later, import that file to another WordPress site."
+msgstr "Përdoreni këtë skenë për të eksportuar bazën tuaj të të dhënave, media, tema dhe shtojca në një kartelë .wpress. Më vonë, importojeni atë kartelë te një sajt tjetër WordPress."
+
+#: lib/view/export/find-replace.php:37 lib/view/export/find-replace.php:46
+msgid "Search for"
+msgstr "Kërko për"
+
+#: lib/view/export/export-buttons.php:37
+msgid "Export Site To"
+msgstr "Eksporto Sajt Te"
+
+#: lib/view/export/advanced-settings.php:83
+msgid "Exclude post revisions"
+msgstr "Përjashtoni rishikime postimesh"
+
+#: lib/view/export/advanced-settings.php:77
+msgid "Exclude spam comments"
+msgstr "Përjashtoni komente mesazh të padëshiruar"
+
+#: lib/view/common/leave-feedback.php:59
+msgid "Describe your issue or feedback..."
+msgstr "Përshkruani problemin tuaj, ose jepni përshtypje…"
+
+#: lib/view/common/leave-feedback.php:56
+msgid "Email address"
+msgstr "Adresë email"
+
+#: lib/view/common/leave-feedback.php:49
+msgid "I need help"
+msgstr "Më duhet ndihmë"
+
+#: lib/view/common/leave-feedback.php:40
+msgid "I have an idea"
+msgstr "Kam një ide"
+
+#: lib/view/backups/index.php:54
+msgid "No backups found. Create a new one?"
+msgstr "S’u gjetën kopjeruajtje. Të krijohet një e re?"
+
+#: lib/view/backups/backups-list.php:90
+msgid "Over 2GB"
+msgstr "Mbi 2GB"
+
+#: lib/view/backups/backups-list.php:66
+msgid "Click to label this backup"
+msgstr "Klikoni që t’i caktoni një etiketë kësaj kopjeruajtjeje"
+
+#: lib/model/import/class-ai1wm-import-validate.php:40
+msgid ""
+"Your server uses 32-bit PHP and cannot process files larger than 2GB. Please switch to 64-bit PHP and try again.\n"
+"\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/php-32bit/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"Shërbyesi juaj përdor PHP 32-bit dhe s’mund të përpunojë kartela më të mëdha se 2GB. Ju lutemi, kaloni në PHP 64-bit dhe riprovoni.\n"
+"\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/php-32bit/\" target=\"_blank\">Hollësi teknike</a>"
+
+#: lib/model/import/class-ai1wm-import-users.php:66
+msgid "WordPress users prepared."
+msgstr "U përgatitën përdorues WordPress-i."
+
+#: lib/model/import/class-ai1wm-import-users.php:40
+msgid "Preparing WordPress users..."
+msgstr "Po gatiten përdorues WordPress…"
+
+#: lib/model/import/class-ai1wm-import-upload.php:74
+#: lib/model/import/class-ai1wm-import-validate.php:54
+msgid ""
+"Invalid file type. Please ensure your file is a <strong>.wpress</strong> backup created with All-in-One WP Migration.\n"
+"\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/invalid-backup-file/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"Lloj i pavlefshëm kartele. Ju lutemi, sigurohuni se kartela juaj është një kopjeruajtje <strong>.wpress</strong> e krijuar me All-in-One WP Migration.\n"
+"\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/invalid-backup-file/\" target=\"_blank\">Hollësi teknike</a>"
+
+#: lib/model/import/class-ai1wm-import-permalinks.php:44
+msgid "WordPress permalinks settings retrieved."
+msgstr "U morën rregullime permalidhjesh WordPress."
+
+#: lib/model/import/class-ai1wm-import-options.php:75
+msgid "WordPress options prepared."
+msgstr "Mundësitë WordPress u përgatitën."
+
+#: lib/model/import/class-ai1wm-import-options.php:36
+msgid "Preparing WordPress options..."
+msgstr "Po përgatiten mundësi WordPress…"
+
+#: lib/model/import/class-ai1wm-import-mu-plugins.php:89
+msgid "Mu-plugins activated."
+msgstr "U aktivizuan shtojca <em>Must-Use</em>."
+
+#: lib/model/import/class-ai1wm-import-enumerate.php:52
+msgid "WordPress files gathered."
+msgstr "U grumbulluan kartela WordPress."
+
+#: lib/model/import/class-ai1wm-import-enumerate.php:37
+msgid "Gathering WordPress files..."
+msgstr "Po grumbullohen kartela WordPress…"
+
+#: lib/model/import/class-ai1wm-import-database.php:1016
+msgid "Database restored."
+msgstr "Baza e të dhënave u rikthye."
+
+#. translators: Link to Unlimited Extension
+#: lib/model/import/class-ai1wm-import-confirm.php:63
+msgid ""
+"Importing this file will only replace matching content. Other items stay unchanged.\n"
+"\t\t\t\t\tNeed a full reset first? Try Reset Hub in our <a href=\"%s\" target=\"_blank\">Unlimited Extension</a>.<br />\n"
+"\t\t\t\t\tEnsure you have a current backup. Proceed?"
+msgstr ""
+"Importimi i kësaj kartele vetëm do të zëvendësojë lëndën përkatëse. Objekte të tjera mbesin të pandryshuar.\n"
+"\t\t\t\t\tJu duhet një rikthim i plotë së pari? Provoni “Reset Hub” në <a href=\"%s\" target=\"_blank\">Unlimited Extension</a> tonin.<br />\n"
+"\t\t\t\t\tSigurohuni se keni një kopjeruajtje të tanishme. Të vazhdohet?"
+
+#. translators: Link to Unlimited Extension
+#: lib/model/import/class-ai1wm-import-confirm.php:52
+msgid ""
+"Importing this file will only replace matching content. Other items stay unchanged.\n"
+"\t\t\t\t\tNeed a full reset first? Try Reset Hub in our Unlimited Extension (%s).\n"
+"\t\t\t\t\tEnsure you have a current backup. Proceed?"
+msgstr ""
+"Importimi i kësaj kartele do të zëvendësojë vetëm lëndën përkatëse. Objekte të tjera mbesin të pandryshuara.\n"
+"\t\t\t\t\tJu duhet një rikthim i plotë së pari? Provoni “Try Reset Hub” te Zgjerimi ynë i Pakufizuar (%s).\n"
+"\t\t\t\t\tSigurohuni se keni një kopjeruajtje të tanishme. Të vazhdohet?"
+
+#: lib/controller/class-ai1wm-backups-controller.php:267
+#: lib/model/import/class-ai1wm-import-check-encryption.php:76
+msgid "The decryption password is not valid. The process cannot continue."
+msgstr "Fjalëkalimi i fshehtëzimit s’është i vlefshëm. Procesi s’mund të vazhdojë."
+
+#: lib/model/import/class-ai1wm-import-check-encryption.php:71
+msgid "Decryption password validated."
+msgstr "U vlerësua fjalëkalim shfshehtëzimesh."
+
+#: lib/model/import/class-ai1wm-import-blogs.php:152
+msgid "Blogs prepared."
+msgstr "U përgatitën blogje."
+
+#: lib/model/import/class-ai1wm-import-blogs.php:142
+msgid "Could not import a WordPress Network into a single WordPress site. The process cannot continue. Please check your import settings."
+msgstr "S’u importua dot një Rrjet WordPress në një sajt njësh WordPress. Procesi s’mund të vazhdojë. Ju lutemi, kontrolloni rregullimet tuaja të importimit."
+
+#: lib/model/import/class-ai1wm-import-blogs.php:139
+msgid "The archive must contain at least one WordPress site. The process cannot continue. Please check your export settings."
+msgstr "Arkivi duhet të përmbajë të paktën një sajt WordPress. Procesi s’mund të vazhdojë. Ju lutemi, kontrolloni rregullimet tuaja të eksportimit."
+
+#: lib/model/import/class-ai1wm-import-blogs.php:136
+msgid "The archive must contain only a single WordPress site. The process cannot continue. Please revisit your export settings."
+msgstr "Arkivi duhet të përmbajë vetëm një sajt njësh WordPress. Procesi s’mund të vazhdojë. Ju lutemi, rishihni rregullimet tuaja të eksportimit."
+
+#: lib/model/export/class-ai1wm-export-enumerate-themes.php:108
+msgid "Theme files gathered."
+msgstr "U grumbulluan kartela temash."
+
+#: lib/model/export/class-ai1wm-export-enumerate-themes.php:53
+msgid "Gathering theme files..."
+msgstr "Po grumbullohen kartela teme…"
+
+#: lib/model/export/class-ai1wm-export-enumerate-tables.php:89
+msgid "Database tables gathered."
+msgstr "U grumbulluan kartela baze të dhënash."
+
+#: lib/model/export/class-ai1wm-export-enumerate-tables.php:48
+msgid "Gathering database tables..."
+msgstr "Po grumbullohen tabela baze të dhënash…"
+
+#: lib/model/export/class-ai1wm-export-enumerate-plugins.php:102
+msgid "Plugin files gathered."
+msgstr "U grumbulluan kartela shtojcash."
+
+#: lib/model/export/class-ai1wm-export-enumerate-plugins.php:53
+msgid "Gathering plugin files..."
+msgstr "Po grumbullohen kartela shtojcash…"
+
+#: lib/model/export/class-ai1wm-export-enumerate-media.php:95
+msgid "Media files gathered."
+msgstr "U grumbulluan kartela media."
+
+#: lib/model/export/class-ai1wm-export-enumerate-media.php:53
+msgid "Gathering media files..."
+msgstr "Po grumbullohen kartela media…"
+
+#: lib/model/export/class-ai1wm-export-enumerate-content.php:113
+msgid "Content files gathered."
+msgstr "Po grumbullohen kartela lënde."
+
+#: lib/model/export/class-ai1wm-export-enumerate-content.php:53
+msgid "Gathering content files..."
+msgstr "Po grumbullohen kartela lënde…"
+
+#: lib/model/export/class-ai1wm-export-database.php:164
+msgid "Database exported."
+msgstr "U eksportua bazë të dhënash."
+
+#: lib/model/export/class-ai1wm-export-database-file.php:100
+msgid "Database archived."
+msgstr "U arkivua bazë të dhënash."
+
+#: lib/model/export/class-ai1wm-export-config.php:199
+msgid "Configuration prepared."
+msgstr "U përgatit formësimi."
+
+#: lib/model/export/class-ai1wm-export-config-file.php:46
+msgid "Configuration archived."
+msgstr "U arkivua formësimi."
+
+#: lib/model/export/class-ai1wm-export-compatibility.php:37
+#: lib/model/import/class-ai1wm-import-compatibility.php:38
+msgid "Checking for compatibility..."
+msgstr "Po kontrollohen për përputhshmëri…"
+
+#: lib/model/export/class-ai1wm-export-archive.php:46
+msgid "Export file created."
+msgstr "U krijua kartelë eksportimi."
+
+#: lib/model/export/class-ai1wm-export-archive.php:39
+msgid "Creating export file..."
+msgstr "Po krijohet kartelë eksportimi…"
+
+#. translators: Error message.
+#: lib/model/class-ai1wm-feedback.php:81
+msgid "An error occurred while submitting your request: %s"
+msgstr "Ndodhi një gabim teksa parashtrohej kërkesa juaj: %s"
+
+#: lib/model/class-ai1wm-feedback.php:63
+msgid "Please check the consent box so we can use your email to respond to you."
+msgstr "Ju lutemi, i vini shenjë kutizës së pranimit, që të mund ta përdorim email-in tuaj për t’ju përgjigjur."
+
+#: lib/model/class-ai1wm-feedback.php:58
+msgid "Please describe your issue or feedback."
+msgstr "Ju lutemi, përshkruani problemin tuaj, ose përshtypjet."
+
+#: lib/model/class-ai1wm-feedback.php:53
+msgid "Please select a feedback type."
+msgstr "Ju lutemi, përzgjidhni një lloj përshtypjesh."
+
+#: lib/model/class-ai1wm-feedback.php:48
+msgid "Please enter a valid email address."
+msgstr "Ju lutemi, jepni një adresë email të vlefshme."
+
+#. translators: 1: Extension name, 2: Plugins update page.
+#: lib/model/class-ai1wm-compatibility.php:56
+msgid "<strong>%1$s</strong> is out of date. You must <a href=\"%2$s\">update this extension</a> before using it.<br />"
+msgstr "<strong>%1$s</strong> është i papërditësuar. Duhet ta <a href=\"%2$s\">përditësoni këtë zgjerim</a>, para se ta përdorni.<br />"
+
+#. translators: Extension name.
+#: lib/model/class-ai1wm-compatibility.php:53
+msgid "%s is out of date. Please update this extension before using it."
+msgstr "%s është i papërditësuar. Ju lutemi, përditësojeni këtë zgjerim, para se ta përdorni."
+
+#: lib/controller/class-ai1wm-main-controller.php:850
+msgid "Please enter a password to restore the backup"
+msgstr "Që të rikthehet kopjeruajtja, jepni një fjalëkalim"
+
+#: lib/controller/class-ai1wm-main-controller.php:829
+msgid "Could not download backup"
+msgstr "S’u shkarkua dot kopjeruajtje"
+
+#: lib/controller/class-ai1wm-main-controller.php:893
+msgid "Could not read backup content"
+msgstr "S’u lexua dot lëndë kopjeruajtjeje"
+
+#. translators: Disk space to free up.
+#: lib/controller/class-ai1wm-main-controller.php:858
+msgid "Not enough disk space.<br /> Free up %s before restoring."
+msgstr "S’ka hapësirë të mjaftueshme te disku.<br /> Lironi %s, para rikthimit."
+
+#. translators: 1: Link to Unlimited Extension
+#: lib/controller/class-ai1wm-main-controller.php:889
+msgid "\"Restore\" functionality is available in our <a href=\"%s\" target=\"_blank\">Unlimited Extension</a>.<br /> If you would rather go the manual route, you can still restore by downloading your backup and using \"Import from file\"."
+msgstr "Funksioni “Rikthejeni” është pjesë e <a href=\"%s\" target=\"_blank\">Unlimited Extension</a> tonë.<br /> Nëse më mirë do të ndërmerrnit rrugën për ta bërë dorazi, mundeni ende ta riktheni duke e shkarkuar kopjeruajtjen tuaj dhe duke përdorur “Importo prej kartele”."
+
+#: lib/controller/class-ai1wm-main-controller.php:877
+msgid ""
+"Invalid file type. Please ensure that your file is a <strong>.wpress</strong> file created with All-in-One WP Migration.\n"
+"\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/invalid-backup-file/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"Lloj i pavlefshëm kartele. Ju lutemi, sigurohuni se kartela juaj është një kopjeruajtje <strong>.wpress</strong> e krijuar me All-in-One WP Migration.\n"
+"\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/invalid-backup-file/\" target=\"_blank\">Hollësi teknike</a>"
+
+#. translators: 1: Link to Unlimited Extension, 2: Link to how to article
+#: lib/controller/class-ai1wm-main-controller.php:861
+msgid "Your file exceeds the upload limit set by your host web server.<br />%1$s<br />%2$s"
+msgstr "Kartela juaj tejkalon kufirin e ngarkimeve të vendosur nga shërbyesi i strehimit tuaj web.<br />%1$s<br />%2$s"
+
+#: lib/controller/class-ai1wm-main-controller.php:856
+msgid "Upload failed"
+msgstr "Ngarkimi dështoi"
+
+#: lib/controller/class-ai1wm-main-controller.php:855
+msgid "Upload failed - connection lost or timeout. Try uploading the file again."
+msgstr "Ngarkimi dështoi - humbi lidhja, ose asaj i mbaroi koha. Provoni ta ringarkoni kartelën."
+
+#: lib/controller/class-ai1wm-main-controller.php:841
+msgid "Stopping the import, please wait..."
+msgstr "Po ndalet importimi, ju lutemi, pritni…"
+
+#: lib/controller/class-ai1wm-main-controller.php:840
+msgid "Could not stop the import. Please refresh and try again."
+msgstr "S’u ndal dot importimi. Ju lutemi, rifreskoni faqen dhe riprovoni."
+
+#: lib/controller/class-ai1wm-main-controller.php:839
+msgid "Could not prepare blogs for import. Please refresh and try again."
+msgstr "S’u përgatitën dot blogjet në importim. Ju lutemi, rifreskoni faqen dhe riprovoni."
+
+#: lib/controller/class-ai1wm-main-controller.php:838
+msgid "Could not check the decryption password. Please refresh and try again."
+msgstr "S’u kontrollua dot fjalëkalimi i shfshehtëzimit. Ju lutemi, rifreskoni faqen dhe riprovoni."
+
+#: lib/controller/class-ai1wm-main-controller.php:837
+msgid "Could not confirm the import. Please refresh and try again."
+msgstr "S’u ripohua dot importimi. Ju lutemi, rifreskoni faqen dhe riprovoni."
+
+#: lib/controller/class-ai1wm-main-controller.php:836
+msgid "Could not start the import. Please refresh and try again."
+msgstr "S’u nis dot importimi. Rifreskoni faqen dhe riprovoni."
+
+#: lib/controller/class-ai1wm-main-controller.php:833
+msgid "Are you sure you want to stop the import?"
+msgstr "Jeni i sigurt se doni të ndalet importimi?"
+
+#. translators: Link to how to article
+#: lib/controller/class-ai1wm-main-controller.php:799
+#: lib/controller/class-ai1wm-main-controller.php:872
+#: lib/view/import/pro.php:61
+msgid "If you prefer a manual fix, follow our step-by-step guide on <a href=\"%s\" target=\"_blank\">raising your upload limit</a>."
+msgstr "Nëse parapëlqeni një ndreqje dorazi, ndiqni udhërrëfyesin tonë të hollësishëm rreth <a href=\"%s\" target=\"_blank\">rritjes së kufirit të ngarkimeve</a>."
+
+#. translators: Link to Unlimited Extension
+#: lib/controller/class-ai1wm-main-controller.php:794
+#: lib/controller/class-ai1wm-main-controller.php:867
+#: lib/view/import/pro.php:49
+msgid "Our <a href=\"%s\" target=\"_blank\">Unlimited Extension</a> bypasses this!"
+msgstr "<a href=\"%s\" target=\"_blank\">Unlimited Extension</a> ynë e anashkalon këtë!"
+
+#. translators: 1: Max upload file size
+#: lib/controller/class-ai1wm-main-controller.php:787
+msgid "Your file exceeds the <strong>%1$s</strong> upload limit set by your host.<br />%2$s<br />%3$s"
+msgstr "Kartela juaj tejkalon kufirin prej <strong>%1$s</strong> për ngarkimet, të caktuar nga streha juaj.<br />%2$s<br />%3$s"
+
+#: lib/controller/class-ai1wm-main-controller.php:822
+msgid "Stopping the export, please wait..."
+msgstr "Po ndalet eksportimi, ju lutemi, pritni…"
+
+#: lib/controller/class-ai1wm-main-controller.php:821
+msgid "Could not stop the export. Please refresh and try again."
+msgstr "S’u ndal dot eksportimi. Ju lutemi, rifreskoni faqen dhe riprovoni."
+
+#: lib/controller/class-ai1wm-main-controller.php:820
+msgid "Could not run the export. Please refresh and try again."
+msgstr "S’kryhet dot eksportimi. Ju lutemi, rifreskoni faqen dhe riprovoni."
+
+#: lib/controller/class-ai1wm-main-controller.php:819
+msgid "Could not start the export. Please refresh and try again."
+msgstr "S’u nis dot eksportimi. Ju lutemi, rifreskoni faqen dhe riprovoni."
+
+#: lib/controller/class-ai1wm-main-controller.php:816
+msgid "Are you sure you want to stop the export?"
+msgstr "Jeni i sigurt se doni të ndalet eksportimi?"
+
+#: lib/controller/class-ai1wm-main-controller.php:809
+msgid "Thank you! We have received your request and will be in touch soon."
+msgstr "Faleminderit! E morëm kërkesën tuaj dhe do të lidhemi së shpejti."
+
+#: lib/controller/class-ai1wm-import-controller.php:109
+#: lib/controller/class-ai1wm-import-controller.php:110
+#: lib/controller/class-ai1wm-main-controller.php:835
+msgid "Import failed"
+msgstr "Importimi dështoi"
+
+#. translators: Error message.
+#: lib/controller/class-ai1wm-import-controller.php:106
+msgid "Import failed: %s"
+msgstr "Importimi dështoi: %s"
+
+#. translators: 1: Error code, 2: Error message.
+#: lib/controller/class-ai1wm-import-controller.php:95
+msgid "Import failed (database error). Code: %1$s. %2$s"
+msgstr "Importimi dështoi (gabim baze të dhënash). Kod: %1$s. %2$s"
+
+#. translators: 1: Error code, 2: Error message.
+#: lib/controller/class-ai1wm-import-controller.php:84
+msgid "Import failed. Code: %1$s. %2$s"
+msgstr "Importimi dështoi. Kod %1$s. %2$s"
+
+#: lib/controller/class-ai1wm-export-controller.php:98
+#: lib/controller/class-ai1wm-export-controller.php:99
+#: lib/controller/class-ai1wm-main-controller.php:818
+msgid "Export failed"
+msgstr "Eksportimi dështoi"
+
+#. translators: 1: Error message.
+#: lib/controller/class-ai1wm-export-controller.php:95
+msgid "Export failed: %s"
+msgstr "Eksportimi dështoi: %s"
+
+#. translators: 1: Error code, 2: Error message.
+#: lib/controller/class-ai1wm-export-controller.php:84
+msgid "Export failed (database error). Code: %1$s. Message: %2$s"
+msgstr "Eksportimi dështoi (gabim baze të dhënash). Kod: %1$s. Mesazh: %2$s"
+
+#: lib/controller/class-ai1wm-backups-controller.php:306
+msgid "Could not list the backup content. Please ensure the backup file is accessible and not corrupted."
+msgstr "S’u paraqit dot lënda e kopjeruajtjes. Ju lutemi, sigurohuni se kartela e kopjeruajtes mund të përdoret dhe s’është e dëmtuar."
+
+#: functions.php:2360
+msgid "Could not decrypt data. The process cannot continue."
+msgstr "S’u shfshehtëzuan dot të dhëna. Procesi s’mund të vazhdojë."
+
+#: functions.php:2337
+msgid "Could not obtain cipher length. The process cannot continue."
+msgstr "S’u mor dot gjatësi shifre. Procesi s’mund të vazhdojë."
+
+#: functions.php:2322
+msgid "Could not encrypt data. The process cannot continue."
+msgstr "S’u fshehtëzuan dot të dhëna. Procesi s’mund të vazhdojë."
+
+#: functions.php:2316
+msgid "Could not generate random bytes. The process cannot continue."
+msgstr "S’u prodhuan dot bajte kuturu. Procesi s’mund të vazhdojë."
+
+#: functions.php:1929
+msgid "Could not authenticate the secret key. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-secret-key/\" target=\"_blank\">Technical details</a>"
+msgstr "S’u bë dot mirëfilltësimi i kyçit të fshehtë. Procesi s’mund të vazhdojë. <a href=\"https://help.servmask.com/knowledgebase/invalid-secret-key/\" target=\"_blank\">Hollësi teknike</a>"
+
+#. translators: 1: Meta data stream URI.
+#: functions.php:1688
+msgid "Could not get current pointer position of %s. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/php-32bit/\" target=\"_blank\">Technical details</a>"
+msgstr "S’u mor dot pozicioni i tanishëm i treguesit për %s. Procesi s’mund të vazhdojë. <a href=\"https://help.servmask.com/knowledgebase/php-32bit/\" target=\"_blank\">Hollësi teknike</a>"
+
+#. translators: 1: Meta data stream URI.
+#: functions.php:1637
+msgid "Could not read file: %s. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">Technical details</a>"
+msgstr "S’u lexua dot kartelë: %s. Procesi s’mund të vazhdojë. <a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">Hollësi teknike</a>"
+
+#. translators: 1: Meta data stream URI.
+#: functions.php:1611
+msgid "Out of disk space. Could not write to: %s. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/out-of-disk-space/\" target=\"_blank\">Technical details</a>"
+msgstr "S’ka hapësirë në disk. S’u shkrua dot te: %s. Procesi s’mund të vazhdojë. <a href=\"https://help.servmask.com/knowledgebase/out-of-disk-space/\" target=\"_blank\">Hollësi teknike</a>"
+
+#. translators: 1: Meta data stream URI.
+#: functions.php:1599 functions.php:1723
+msgid "Could not write to: %s. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">Technical details</a>"
+msgstr "S’u shkrua dot te: %s. Procesi s’mund të vazhdojë. <a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">Hollësi teknike</a>"
+
+#. translators: 1: File path, 2: mode
+#: functions.php:1551 functions.php:1574
+msgid "Could not open %1$s with mode %2$s. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">Technical details</a>"
+msgstr "S’u hap dot %1$s me mënyrën %2$s. Procesi s’mund të vazhdojë. <a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">Hollësi teknike</a>"
+
+#: functions.php:87 functions.php:149
+msgid "Your archive file name contains invalid characters: < > : \" | ? * \\0. It must not include these characters. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-archive-name/\" target=\"_blank\">Technical details</a>"
+msgstr "Emri i kartelës tuaj arkiv përmban shenja të pavlefshme: < > : \" | ? * \\0. S’duhet të përmbajë të tilla. Procesi s’mund të vazhdojë. <a href=\"https://help.servmask.com/knowledgebase/invalid-archive-name/\" target=\"_blank\">Hollësi teknike</a>"
+
+#: functions.php:77 functions.php:139
+msgid "Could not locate the archive path. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-archive-path/\" target=\"_blank\">Technical details</a>"
+msgstr "S’u lokalizua dot shtegu i arkivit. Procesi s’mund të vazhdojë. <a href=\"https://help.servmask.com/knowledgebase/invalid-archive-path/\" target=\"_blank\">Hollësi teknike</a>"
+
+#: functions.php:52
+msgid "Your storage directory name contains invalid characters: < > : \" | ? * \\0. It must not include these characters. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-storage-name/\" target=\"_blank\">Technical details</a>"
+msgstr "Emri i drejtorisë suaj të depozitimeve përmban shenja të pavlefshme: < > : \" | ? * \\0. S’duhet të përmbajë të tilla. Procesi s’mund të vazhdojë. <a href=\"https://help.servmask.com/knowledgebase/invalid-storage-name/\" target=\"_blank\">Hollësi teknike</a>"
+
+#: functions.php:42
+msgid "Could not locate the storage path. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-storage-path/\" target=\"_blank\">Technical details</a>"
+msgstr "S’u lokalizua dot shtegu i depozitës. Procesi s’mund të vazhdojë. <a href=\"https://help.servmask.com/knowledgebase/invalid-storage-path/\" target=\"_blank\">Hollësi teknike</a>"
+
+#. Description of the plugin
+#: all-in-one-wp-migration.php
+msgid "All-in-One WP Migration makes moving your entire WordPress site simple. Export or import your database, media, plugins, and themes with just a few clicks."
+msgstr "All-in-One WP Migration e bën të thjeshtë lëvizjen e sajtit tuaj WordPress. Eksportoni ose importoni me vetëm pak klikime bazën tuaj të të dhënave, media, shtojca dhe tema."
+
+#: lib/controller/class-ai1wm-main-controller.php:830
+msgid "View Error Log"
+msgstr "Shihni Regjistër Gabimesh"
+
+#: functions.php:97 functions.php:159
+msgid "Invalid archive file type. Only .wpress files are allowed. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-file-type/\" target=\"_blank\">Technical details</a>"
+msgstr "Lloj i pavlefshëm kartele arkiv. Lejohen vetëm kartela .wpress. Procesi s’mund të vazhdojë. <a href=\"https://help.servmask.com/knowledgebase/invalid-file-type/\" target=\"_blank\">Hollësi teknike</a>"
+
+#. translators: 1: Archive title, 2: File name, 3: Archive title, 4: File size.
+#: lib/model/export/class-ai1wm-export-download.php:84
+msgid ""
+"<a href=\"#\" class=\"ai1wm-button-green ai1wm-emphasize ai1wm-direct-download\" title=\"%1$s\" download=\"%2$s\">\n"
+"\t\t\t\t\t\t\t<span>Download %3$s</span>\n"
+"\t\t\t\t\t\t\t<em>Size: %4$s</em>\n"
+"\t\t\t\t\t\t\t</a>"
+msgstr ""
+"<a href=\"#\" class=\"ai1wm-button-green ai1wm-emphasize ai1wm-direct-download\" title=\"%1$s\" download=\"%2$s\">\n"
+"\t\t\t\t\t\t\t<span>Shkarkojeni %3$s</span>\n"
+"\t\t\t\t\t\t\t<em>Madhësi: %4$s</em>\n"
+"\t\t\t\t\t\t\t</a>"
+
+#: lib/view/reset/index.php:41
+msgid "Reset Hub Demo"
+msgstr "Demonstrim për Qendër Rikthimi Te Parazgjedhjet"
+
+#: lib/view/reset/index.php:41
+msgid "Upgrade to Premium "
+msgstr "Përmirësojeni me versionin Me Pagesë "
+
+#: lib/view/reset/index.php:39
+msgid "Please note, the features displayed below are part of an image showcasing the potential of Reset Hub in its Premium version. To activate and enjoy these advanced features, <a href=\"https://servmask.com/products/unlimited-extension\" title=\"Upgrade to Premium\" target=\"_blank\">upgrade to Premium now</a>! Elevate your website management experience with these exclusive functionalities and priority support."
+msgstr "Ju lutemi, kini parasysh se, veçoritë e shfaqura më poshtë janë pjesë e një figure që shfaq potencialin për Qendër Rikthimi Te Parazgjedhjet në versionin e vet Me Pagesë. Për të aktivizuar dhe shijuar këto veçori të thelluara, <a href=\"https://servmask.com/products/unlimited-extension\" title=\"Upgrade to Premium\" target=\"_blank\">përmirësojeni që tani me versionin Me Pagesë</a>! Shpjereni më lart administrimin e sajtit tuaj, me këto funksione ekskluzive dhe asistencë me përparësi."
+
+#: lib/view/reset/index.php:37
+msgid "Experience Full Functionality with Premium!"
+msgstr "Shijoni Funksionim të Plotë, me versionin Me Pagesë!"
+
+#: lib/view/reset/index.php:36
+msgid "Star"
+msgstr "Yll"
+
+#: lib/controller/class-ai1wm-main-controller.php:729
+#: lib/controller/class-ai1wm-main-controller.php:730
+msgid "Reset Hub"
+msgstr "Qendër Rikthimi Te Parazgjedhjet"
+
+#: lib/view/main/premium-badge.php:33
+msgid "Premium"
+msgstr "Me Pagesë"
+
+#: lib/view/schedules/index.php:111
+msgid "Leverage the simplicity of Dropbox for your backup needs. Direct your scheduled backups to be stored in Dropbox. It's secure, straightforward, and keeps your backups at your fingertips."
+msgstr "Shfrytëzoni thjeshtësinë e Dropbox-it për nevojat tuaja për kopjeruajtje. Drejtojini kopjeruajtjet tuaja të planifikuara të depozitohen në Dropbox. Është e siguruar, e drejtpërdrejtë dhe i mban kopjeruajtjet tuaja më majë të gishtave."
+
+#: lib/view/schedules/index.php:163
+msgid "Tailor your backup schedules to fit the complexity of your WordPress Multisite. Choose to export the entire network or only a selection of subsites according to your requirements. Effortless management for even the most intricate site networks."
+msgstr "Përshtatni planifikimin e kopjeruajtjeve tuaja, që të përkojnë me shkallën e ndërlikimit të instalimit tuaj WordPress Shumësajtësh. Zgjidhni të eksportoni krejt rrjetin, ose vetëm një përzgjedhje nënsajtesh në përputhje me kërkesat tuaja. Administrim pa mundim, madje dhe për rrjetet më të ndërlikuar sajtesh."
+
+#: lib/view/schedules/index.php:150
+msgid "We've got you covered with an array of supported storage providers. Whether you prefer Box, Amazon S3, WebDav or something else, you can choose the one that fits your needs best. Secure your backups exactly where you want them."
+msgstr "Ju mbulojmë me një gamë furnizuesish depozitimi. Qoftë kur parapëlqeni Box, Amazon S3, WebDav, apo diçka tjetër, mund të zgjidhni një që plotëson më mirë nevojat tuaja. Siguroni kopjeruajtjet tuaja mu atje ku i doni."
+
+#: lib/view/schedules/index.php:137
+msgid "Enjoy the flexibility of FTP storage. Direct your scheduled backups to your own FTP server. You'll have full control over your data, providing you with a versatile and private storage solution."
+msgstr "Shfrytëzoni zhdërvjelltësinë e depozitës tuaj FTP. Drejtojini kopjeruajtjet tuaja të planifikuara për te shërbyesi juaj FTP. Do të keni kontroll të plotë mbi të dhënat tuaja, duke ju dhënë një zgjidhje të shumanshme dhe private për depozitimin."
+
+#: lib/view/schedules/index.php:124
+msgid "Harness the power of OneDrive for your backups. Set up your scheduled backups to be saved directly in your OneDrive. It's secure, integrated with your Microsoft account, and keeps your data readily accessible."
+msgstr "Shfrytëzoni për kopjeruajtjet fuqinë e OneDrive-it. Ujdisni kopjeruajtjet tuaja të planifikuara, që të ruhen drejt e te OneDrive-i juaj. Është e siguruar, e integruar me llogarinë tuaj Microsoft dhe i mban të dhënat tuaja gati për t’i përdorur."
+
+#: lib/view/schedules/index.php:98
+msgid "Benefit from the robustness of Google Drive. Schedule your backups to be saved directly to your Google Drive account. Simple, secure, and integrated into a platform you already use."
+msgstr "Përfitoni nga fortësia e Google Drive-it. Vini në plan kopjeruajtjet tuaja të ruhen drejtpërdrejt te llogaria juaj Google Drive. E thjeshtë, e siguruar dhe e integruar në një platformë që e përdorni tashmë."
+
+#: lib/view/schedules/index.php:85
+msgid "Manage your storage effectively with our flexible retention settings. Decide how many backups you want to keep at a time. Old backups are automatically cleared, keeping your storage neat and efficient."
+msgstr "Administroni me efikasitet depozitën tuaj, me rregullimet tona të zhdërvjellëta të mbajtjes. Vendosni se sa kopjeruajtje dëshironi të mbahen gjatë një kohe të caktuar. Kopjeruajtjet e vjetra spastrohen vetvetiu, duke e mbajtur depozitën tuaj të pastër dhe efikase."
+
+#: lib/view/schedules/index.php:77 lib/view/schedules/index.php:82
+msgid "Retention settings"
+msgstr "Rregullime mbajtjeje"
+
+#: lib/view/schedules/index.php:72
+msgid "Stay informed, not overwhelmed. Tailor your notification preferences to get updates that matter to you. Whether it's the status of each backup, or just critical alerts, control what you want to be notified about."
+msgstr "Jini në dijeni, pa u përmbytur me informacion. Ujdisni parapëlqimet tuaja për njoftime, që të merrni përditësime që kanë vlerë për ju. Qoftë kur bëhet fjalë për gjendjen e secilës kopjeruajtje, se thjesht për sinjalizime kritike, kontrolloni se për çfarë doni të njoftoheni."
+
+#: lib/view/schedules/index.php:64 lib/view/schedules/index.php:69
+msgid "Notification settings"
+msgstr "Rregullime njoftimesh"
+
+#: lib/view/schedules/index.php:59
+msgid "Never worry about forgetting to back up your site again. Choose from various scheduling options, from daily to monthly, and we'll automate the rest. Backups happen like clockwork, giving you peace of mind and a solid safety net"
+msgstr "Mos u shqetësoni më se mos harroni të kopjeruani sajtin tuaj. Zgjidhni një prej mundësive të larmishme të planifikimit, nga të përditshme në të përmuajshme dhe ne do të automatizojmë pjesën e mbetur. Kopjeruajtjet kryhen si me sahat, duke ju lënë me mendje të fjetur dhe dhënë një rrjet solid sigurie"
+
+#: lib/view/schedules/index.php:56 lib/view/schedules/index.php:69
+#: lib/view/schedules/index.php:82 lib/view/schedules/index.php:95
+#: lib/view/schedules/index.php:108 lib/view/schedules/index.php:121
+#: lib/view/schedules/index.php:134 lib/view/schedules/index.php:147
+#: lib/view/schedules/index.php:160
+msgid "Enable this feature"
+msgstr "Aktivizoje këtë veçori"
+
+#: lib/view/schedules/index.php:51
+msgid "Backup scheduler"
+msgstr "Planifikues kopjeruajtjesh"
+
+#: lib/view/schedules/index.php:45 lib/view/schedules/index.php:155
+#: lib/view/schedules/index.php:160
+msgid "Multisite Schedules"
+msgstr "Vënie Në Plan Në Instalime Shumësajtëshe"
+
+#: lib/view/schedules/index.php:44 lib/view/schedules/index.php:142
+#: lib/view/schedules/index.php:147
+msgid "More Storage Providers"
+msgstr "Më Tepër Shërbime Depozitimi"
+
+#: lib/view/schedules/index.php:43 lib/view/schedules/index.php:129
+#: lib/view/schedules/index.php:134
+msgid "FTP Storage"
+msgstr "Depozitim FTP"
+
+#: lib/view/schedules/index.php:42 lib/view/schedules/index.php:116
+#: lib/view/schedules/index.php:121
+msgid "OneDrive Storage"
+msgstr "Depozitim OneDrive"
+
+#: lib/view/schedules/index.php:41 lib/view/schedules/index.php:103
+#: lib/view/schedules/index.php:108
+msgid "Dropbox Storage"
+msgstr "Depozitim Dropbox"
+
+#: lib/view/schedules/index.php:40 lib/view/schedules/index.php:90
+#: lib/view/schedules/index.php:95
+msgid "Google Drive Storage"
+msgstr "Depozitim Google Drive"
+
+#: lib/view/schedules/index.php:39
+msgid "Retention Settings"
+msgstr "Rregullime Mbajtjeje"
+
+#: lib/view/schedules/index.php:38
+msgid "Notification Settings"
+msgstr "Rregullime Njoftimesh"
+
+#: lib/view/schedules/index.php:37 lib/view/schedules/index.php:56
+msgid "Backup Scheduler"
+msgstr "Planifikues Kopjeruajtjesh"
+
+#: lib/controller/class-ai1wm-main-controller.php:738
+#: lib/controller/class-ai1wm-main-controller.php:739
+msgid "Schedules"
+msgstr "Vënie Në Plan"
+
+#: lib/model/import/class-ai1wm-import-check-encryption.php:63
+msgid "Backup is encrypted. Please provide decryption password: "
+msgstr "Kopjeruajtja është e fshehtëzuar. Ju lutemi, jepni fjalëkalimin e shfshehtëzimit: "
+
+#: lib/view/export/advanced-settings.php:66
+msgid "Password-protect and encrypt backups"
+msgstr "Kopjeruajtje të mbrojtura me fjalëkalim dhe të fshehtëzuara"
+
+#: lib/view/export/advanced-settings.php:53
+msgid "A password is required"
+msgstr "Lypset një fjalëkalim"
+
+#: lib/view/export/advanced-settings.php:46
+msgid "Encrypt this backup with a password"
+msgstr "Fshehtëzojeni këtë kopjeruajtje me një fjalëkalim"
+
+#: lib/model/import/class-ai1wm-import-check-encryption.php:56
+msgid "Importing an encrypted backup is not supported on this server. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/unable-to-encrypt-and-decrypt-backups/\" target=\"_blank\">Technical details</a>"
+msgstr "Në këtë shërbyes s’mbulohet importim kopjeruajtjeje të fshehtëzuar. Procesi s’mund të vazhdojë. n<a href=\"https://help.servmask.com/knowledgebase/unable-to-encrypt-and-decrypt-backups/\" target=\"_blank\">Hollësi teknike</a>"
+
+#: lib/controller/class-ai1wm-main-controller.php:854
+#: lib/view/export/advanced-settings.php:58
+msgid "The passwords do not match"
+msgstr "Fjalëkalimet s’përputhen"
+
+#: lib/controller/class-ai1wm-main-controller.php:853
+#: lib/view/export/advanced-settings.php:56
+msgid "Repeat the password"
+msgstr "Rijepni fjalëkalimin"
+
+#: lib/controller/class-ai1wm-main-controller.php:851
+#: lib/controller/class-ai1wm-main-controller.php:897
+msgid "Submit"
+msgstr "Parashtroje"
+
+#: lib/controller/class-ai1wm-main-controller.php:849
+msgid "The backup is encrypted"
+msgstr "Kopjeruajtja është e fshehtëzuar"
+
+#: lib/view/backups/backups-list.php:131
+msgid "List"
+msgstr "Listë"
+
+#: lib/view/backups/backups-list.php:129
+msgid "Show backup content"
+msgstr "Shfaq lëndë kopjeruajtjeje"
+
+#: lib/view/backups/backups-list.php:122
+msgid "Downloading is not possible because backups directory is not accessible."
+msgstr "Shkarkimi s’është i mundur, ngaqë s’hyhet dot te drejtoria e kopjeruajteve."
+
+#: lib/controller/class-ai1wm-main-controller.php:895
+msgid "Reading..."
+msgstr "Po lexohet…"
+
+#: lib/controller/class-ai1wm-main-controller.php:894
+msgid "List the content of the backup"
+msgstr "Radhit lëndën e kopjeruajtjes"
+
+#: lib/controller/class-ai1wm-main-controller.php:892
+msgid "Error"
+msgstr "Gabim"
+
+#: lib/view/backups/backups-list.php:95
+msgid "More"
+msgstr "Më tepër"
+
+#. translators: 1: Number of backups.
+#: lib/controller/class-ai1wm-main-controller.php:828
+msgid "You have %d backups"
+msgstr "Keni %d kopjeruajtje"
+
+#. translators: 1: Number of backups.
+#. translators: Numbers of backups.
+#: lib/controller/class-ai1wm-main-controller.php:826
+#: lib/view/main/backups.php:33
+msgid "You have %d backup"
+msgid_plural "You have %d backups"
+msgstr[0] "Keni %d kopjeruajtje"
+msgstr[1] "Keni %d kopjeruajtje"
+
+#. translators: 1: Error message.
+#: lib/view/updater/error.php:33
+msgid "Error: %s"
+msgstr "Gabim: %s"
+
+#. translators: 1: Number of files, 2: Progress.
+#: lib/model/export/class-ai1wm-export-themes.php:102
+#: lib/model/export/class-ai1wm-export-themes.php:142
+msgid "Archiving %1$d theme files...<br />%2$d%% complete"
+msgstr "Po arkivohen %1$d kartela temash…<br />%2$d%% e plotësuar"
+
+#: lib/view/main/contact-support.php:33
+msgid "Contact Support"
+msgstr "Lidhuni Me Asistencën"
+
+#: lib/model/import/class-ai1wm-import-permalinks.php:38
+msgid "Retrieving WordPress permalinks settings..."
+msgstr "Po merren rregullime permalidhjesh WordPress…"
+
+#: lib/view/import/avada.php:46
+msgid "» <a class=\"ai1wm-no-underline\" href=\"https://theme-fusion.com/documentation/avada/installation-maintenance/important-update-information/#clear-caches\" target=\"_blank\">Reset Avada Fusion Builder cache</a>.<br />"
+msgstr "» <a class=\"ai1wm-no-underline\" href=\"https://theme-fusion.com/documentation/avada/installation-maintenance/important-update-information/#clear-caches\" target=\"_blank\">Zero fshehtinën për Avada Fusion Builder</a>.<br />"
+
+#: lib/view/import/avada.php:43
+msgid "» <a class=\"ai1wm-no-underline\" href=\"https://classic.oxygenbuilder.com/documentation/other/importing-exporting/#resigning\" target=\"_blank\">Re-sign Oxygen Builder shortcodes</a>.<br />"
+msgstr "» <a class=\"ai1wm-no-underline\" href=\"https://classic.oxygenbuilder.com/documentation/other/importing-exporting/#resigning\" target=\"_blank\">Rinënshkruani kode të shkurtër Oxygen Builder</a>.<br />"
+
+#: lib/view/import/avada.php:33
+msgid "» Permalinks are set to default. <a class=\"ai1wm-no-underline\" href=\"https://help.servmask.com/knowledgebase/permalinks-are-set-to-default/\" target=\"_blank\">Why?</a><br />"
+msgstr "» Permalidhjet janë ujdisur sipas parazgjedhjeve. <a class=\"ai1wm-no-underline\" href=\"https://help.servmask.com/knowledgebase/permalinks-are-set-to-default/\" target=\"_blank\">Pse?</a><br />"
+
+#: lib/view/main/translate.php:33
+msgid "Translate"
+msgstr "Përkthejeni"
+
+#. translators: 1: Number of files, 2: Progress.
+#: lib/model/export/class-ai1wm-export-media.php:102
+#: lib/model/export/class-ai1wm-export-media.php:142
+msgid "Archiving %1$d media files...<br />%2$d%% complete"
+msgstr "Po arkivohen %1$d kartela media…<br />%2$d%% e plotësuar"
+
+#. translators: 1: Number of files, 2: Progress.
+#: lib/model/export/class-ai1wm-export-content.php:102
+#: lib/model/export/class-ai1wm-export-content.php:142
+msgid "Archiving %1$d content files...<br />%2$d%% complete"
+msgstr "Po arkivohen %1$d kartela lënde…<br />%2$d%% e plotësuar"
+
+#: lib/controller/class-ai1wm-main-controller.php:846
+msgid "I have enough disk space"
+msgstr "Kam hapësirë të mjaftueshme disku"
+
+#. translators: 1: Source PHP version, 2: Target PHP version.
+#: lib/model/import/class-ai1wm-import-confirm.php:97
+msgid ""
+"Your backup is from a PHP %1$s but the site that you are importing to is PHP %2$s.\n"
+"\t\t\t\t\t\t\tThis could cause the import to fail. Technical details: https://help.servmask.com/knowledgebase/migrate-wordpress-from-php-5-to-php-7/"
+msgstr ""
+"Kopjeruajtja juaj është prej një instalimi me PHP %1$s, ndërsa sajti ku po importoni punon me PHP %2$s.\n"
+"\t\t\t\t\t\t\tKjo mund të sillte dështimin e importimit. Hollësi teknike: https://help.servmask.com/knowledgebase/migrate-wordpress-from-php-5-to-php-7/"
+
+#: lib/view/backups/backups-list.php:48 lib/view/backups/index.php:51
+msgid "Refreshing backup list..."
+msgstr "Po rifreskohet listë kopjeruajtjesh…"
+
+#. translators: Storage path
+#: lib/view/import/import-permissions.php:38
+msgid ""
+"<h3>Could not import site</h3>\n"
+"\t\t\t\t<p>Please ensure the directory <strong>%s</strong> has read/write permissions.</p>\n"
+"\t\t\t\t<p><a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">Technical details</a></p>"
+msgstr ""
+"<h3>Sajti s’u importua dot</h3>\n"
+"\t\t\t\t<p>Ju lutemi, sigurohuni se drejtoria <strong>%s</strong> ka leje leximi/shkrimi.</p>\n"
+"\t\t\t\t<p><a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">Hollësi teknike</a></p>"
+
+#. translators: Storage path.
+#: lib/view/export/export-permissions.php:38
+msgid ""
+"<h3>Could not export site</h3>\n"
+"\t\t\t\t<p>Please ensure the directory <strong>%s</strong> has read/write permissions.</p>\n"
+"\t\t\t\t<p><a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">Technical details</a></p>"
+msgstr ""
+"<h3>Sajti s’u eksportua dot</h3>\n"
+"\t\t\t\t<p>Ju lutemi, sigurohuni se drejtoria <strong>%s</strong> ka leje leximi/shkrimi.</p>\n"
+"\t\t\t\t<p><a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">Hollësi teknike</a></p>"
+
+#. translators: Backups path
+#: lib/view/backups/backups-permissions.php:38
+msgid ""
+"<h3>Could not restore site</h3>\n"
+"\t\t\t\t<p>Please ensure the directory <strong>%s</strong> has read/write permissions.</p>\n"
+"\t\t\t\t<p><a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">Technical details</a></p>"
+msgstr ""
+"<h3>Sajti s’u rikthye dot</h3>\n"
+"\t\t\t\t<p>Ju lutemi, sigurohuni se drejtoria <strong>%s</strong> ka leje leximi/shkrimi.</p>\n"
+"\t\t\t\t<p><a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">Hollësi teknike</a></p>"
+
+#: lib/view/main/missing-role-capability-notice.php:37
+msgid ""
+"Your current profile role does not have Export/Import capabilities enabled.\n"
+"\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/how-to-add-import-and-export-capabilities-to-wordpress-users/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"Roli i tanishëm i profilit tuaj nuk ka të aktivizuara aftësitë Eksport/Import.\n"
+"\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/how-to-add-import-and-export-capabilities-to-wordpress-users/\" target=\"_blank\">Hollësi teknike</a>"
+
+#: lib/view/import/button-file.php:33
+msgid "To choose a file please go inside the link and click on the browse button."
+msgstr "Për të zgjedhur një kartelë, ju lutemi, shkoni brenda lidhjes dhe klikoni mbi butonin e shfletimit."
+
+#: lib/controller/class-ai1wm-main-controller.php:844
+msgid "Finish"
+msgstr "Përfundoje"
+
+#: lib/model/import/class-ai1wm-import-validate.php:87
+msgid ""
+"Please ensure your file was created with the All-in-One WP Migration plugin.\n"
+"\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/invalid-backup-file/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"Ju lutemi, sigurohuni se kartela juaj qe krijuar me shtojcën All-in-One WP Migration.\n"
+"\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/invalid-backup-file/\" target=\"_blank\">Hollësi teknike</a>"
+
+#: lib/model/import/class-ai1wm-import-validate.php:74
+msgid "The archive file appears to be corrupted. Follow <a href=\"https://help.servmask.com/knowledgebase/corrupted-archive/\" target=\"_blank\">this article</a> for possible fixes."
+msgstr "Kartela arkiv duhet të jetë e dëmtuar. Ndiqni <a href=\"https://help.servmask.com/knowledgebase/corrupted-archive/\" target=\"_blank\">këtë artikull</a> për ndreqje të mundshme."
+
+#. translators: 1: Source PHP version, 2: Target PHP version.
+#: lib/model/import/class-ai1wm-import-confirm.php:109
+msgid "Your backup is from a PHP %1$s but the site that you are importing to is PHP %2$s. This could cause the import to fail. <a href=\"https://help.servmask.com/knowledgebase/migrate-wordpress-from-php-5-to-php-7/\" target=\"_blank\">Technical details</a>"
+msgstr "Kopjeruajtja juaj është prej një PHP %1$s, por sajti në të cilin po importoni është nën PHP %2$s. Kjo mund të sjellë dështimin e importimit. <a href=\"https://help.servmask.com/knowledgebase/migrate-wordpress-from-php-5-to-php-7/\" target=\"_blank\">Hollësi teknike</a>"
+
+#: lib/view/import/import-buttons.php:41
+msgid "Drag & Drop a backup to import it"
+msgstr "Merreni & Vëreni një kopjeruajtje që të importohet"
+
+#. translators: 1: Progress, 2: Number of records.
+#: lib/model/export/class-ai1wm-export-database.php:81
+#: lib/model/export/class-ai1wm-export-database.php:191
+msgid "Exporting database...<br />%1$d%% complete<br />%2$s records saved"
+msgstr "Po eksportohet bazë të dhënash…<br />%1$d%% e plotësuar<br />%2$s zëra të ruajtur"
+
+#: lib/controller/class-ai1wm-main-controller.php:886
+msgid "Backup restore requires the Unlimited Extension. <a href=\"https://servmask.com/products/unlimited-extension\" target=\"_blank\">Get it here</a>"
+msgstr "Rikthimi i një kopjeruajtjeje mund të kryhet përmes zgjerimit Unlimited. <a href=\"https://servmask.com/products/unlimited-extension\" target=\"_blank\">Merreni nga këtu</a>"
+
+#: lib/controller/class-ai1wm-main-controller.php:252
+msgid "All-in-One WP Migration Command"
+msgstr "Urdhër All-in-One WP Migration"
+
+#: lib/controller/class-ai1wm-main-controller.php:817
+#: lib/model/export/class-ai1wm-export-init.php:47
+msgid "Preparing to export..."
+msgstr "Po përgatitet për eksport…"
+
+#. translators: Human time diff
+#: lib/view/backups/backups-list.php:84
+msgid "%s ago"
+msgstr "%s më parë"
+
+#: lib/controller/class-ai1wm-main-controller.php:813
+msgid "Your purchase ID is invalid. Please <a href=\"mailto:support@servmask.com\">contact us</a>."
+msgstr "ID-ja juaj e blerjes është e pavlefshme. Ju lutemi, <a href=\"mailto:support@servmask.com\">lidhuni me ne</a>."
+
+#: lib/controller/class-ai1wm-main-controller.php:885
+msgid "Are you sure you want to delete this backup?"
+msgstr "Jeni i sigurt se doni të fshihet kjo kopjeruajtje?"
+
+#: lib/controller/class-ai1wm-main-controller.php:848
+msgid "Please do not close this browser window or your import will fail"
+msgstr "Ju lutemi, mos e mbyllni këtë dritare shfletuesi, përndryshe importimi juaj do të dështojë"
+
+#: lib/controller/class-ai1wm-main-controller.php:847
+msgid "Continue"
+msgstr "Vazhdo"
+
+#: lib/controller/class-ai1wm-main-controller.php:845
+msgid "Proceed"
+msgstr "Bëje"
+
+#: lib/controller/class-ai1wm-main-controller.php:843
+msgid "Stop import"
+msgstr "Ndale importimin"
+
+#: lib/controller/class-ai1wm-main-controller.php:824
+msgid "Stop export"
+msgstr "Ndale eksportimin"
+
+#: lib/controller/class-ai1wm-main-controller.php:823
+#: lib/controller/class-ai1wm-main-controller.php:842
+#: lib/controller/class-ai1wm-main-controller.php:896
+msgid "Close"
+msgstr "Mbylle"
+
+#: lib/model/export/class-ai1wm-export-config.php:38
+msgid "Preparing configuration..."
+msgstr "Po përgatitet formësim…"
+
+#. translators: Progress.
+#: lib/model/export/class-ai1wm-export-database-file.php:88
+#: lib/model/export/class-ai1wm-export-database-file.php:127
+msgid "Archiving database...<br />%d%% complete"
+msgstr "Po arkivohet bazë të dhënash…<br />%d%% e plotësuar"
+
+#. translators: Progress.
+#: lib/model/import/class-ai1wm-import-database.php:81
+#: lib/model/import/class-ai1wm-import-database.php:1037
+msgid "Restoring database...<br />%d%% complete"
+msgstr "Po rikthehet bazë të dhënash…<br />%d%% e plotësuar"
+
+#. translators: Progress.
+#: lib/model/import/class-ai1wm-import-database-file.php:85
+#: lib/model/import/class-ai1wm-import-database-file.php:142
+msgid "Unpacking database...<br />%d%% complete"
+msgstr "Po eksportohet bazë të dhënash…<br />%d%% e plotësuar"
+
+#: lib/controller/class-ai1wm-main-controller.php:834
+msgid "Preparing to import..."
+msgstr "Po përgatitet për importim…"
+
+#: lib/controller/class-ai1wm-main-controller.php:1367
+msgid "Monthly"
+msgstr "Mujore"
+
+#: lib/controller/class-ai1wm-main-controller.php:1363
+msgid "Weekly"
+msgstr "Javore"
+
+#: lib/model/import/class-ai1wm-import-mu-plugins.php:37
+msgid "Activating mu-plugins..."
+msgstr "Po aktivizohen mu-plugins…"
+
+#: lib/view/export/advanced-settings.php:97
+msgid "Do <strong>not</strong> replace email domain"
+msgstr "<strong>Mos</strong> zëvendëso përkatësi email-esh"
+
+#: lib/model/import/class-ai1wm-import-blogs.php:37
+msgid "Preparing blogs..."
+msgstr "Po përgatiten blogje…"
+
+#: lib/controller/class-ai1wm-main-controller.php:812
+#: lib/view/updater/check.php:33
+msgid "Check for updates"
+msgstr "Kontrollo për përditësime"
+
+#. Author of the plugin
+#: all-in-one-wp-migration.php
+msgid "ServMask"
+msgstr "ServMask"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: all-in-one-wp-migration.php
+msgid "https://servmask.com/"
+msgstr "https://servmask.com/"
+
+#: lib/view/import/index.php:39
+msgid "Import Site"
+msgstr "Importoni Sajt"
+
+#: lib/view/import/import-buttons.php:45
+msgid "Import From"
+msgstr "Importo Prej"
+
+#: lib/view/export/index.php:39
+msgid "Export Site"
+msgstr "Eksporto Sajt"
+
+#: lib/view/export/help-section.php:52
+msgid "Once the file is successfully downloaded on your computer, you can import it to any of your WordPress sites."
+msgstr "Pasi kartela të jetë shkarkuar me sukses në kompjuterin tuaj, mund ta importoni te cilido prej sajteve tuaj WordPress."
+
+#: lib/view/export/help-section.php:48
+msgid "Press \"Export\" button and the site archive file will pop up in your browser."
+msgstr "Shtypni butonin \"Eksportoje\" dhe kartela e arkivit të sajtit do të shfaqet te shfletuesi juaj."
+
+#: lib/view/export/help-section.php:44
+msgid "In the advanced settings section you can configure more precisely the way of exporting."
+msgstr "Te ndarja për rregullime të mëtejshme mund të formësoni më saktë mënyrën e eksportimit."
+
+#: lib/view/export/find-replace.php:54
+msgid "Add"
+msgstr "Shtoje"
+
+#: lib/view/export/find-replace.php:41
+msgid "in the database"
+msgstr "te baza e të dhënave"
+
+#: lib/view/export/find-replace.php:40
+msgid "<another-text>"
+msgstr "<tjetër-tekst>"
+
+#: lib/view/export/find-replace.php:39 lib/view/export/find-replace.php:47
+msgid "Replace with"
+msgstr "Zëvendësoje me"
+
+#: lib/view/export/find-replace.php:38
+msgid "<text>"
+msgstr "<tekst>"
+
+#: lib/view/export/button-file.php:33 lib/view/import/button-file.php:34
+msgid "File"
+msgstr "Kartelë"
+
+#: lib/view/export/advanced-settings.php:38
+msgid "(click to expand)"
+msgstr "(klikoni, që të zgjerohet)"
+
+#: lib/view/export/advanced-settings.php:37
+msgid "Advanced options"
+msgstr "Mundësi të mëtejshme"
+
+#: lib/view/common/share-buttons.php:73
+msgid "Tweet"
+msgstr "Tweet"
+
+#: lib/view/common/leave-feedback.php:69
+msgid "Cancel"
+msgstr "Anuloje"
+
+#: lib/view/common/leave-feedback.php:72
+msgid "Send"
+msgstr "Dërgoje"
+
+#: lib/controller/class-ai1wm-main-controller.php:852
+#: lib/view/export/advanced-settings.php:51
+msgid "Enter a password"
+msgstr "Jepni një fjalëkalim"
+
+#: lib/view/common/sidebar-right.php:41
+msgid "Leave Feedback"
+msgstr "Jepni Përshtypjet"
+
+#: lib/view/backups/index.php:59
+msgid "Create backup"
+msgstr "Krijo kopjeruajtje"
+
+#: lib/view/backups/backups-list.php:136 lib/view/backups/backups-list.php:138
+msgid "Delete"
+msgstr "Fshije"
+
+#: lib/view/backups/backups-list.php:101 lib/view/backups/backups-list.php:103
+msgid "Restore"
+msgstr "Riktheje"
+
+#: lib/view/backups/backups-list.php:109 lib/view/backups/backups-list.php:111
+#: lib/view/backups/backups-list.php:114 lib/view/backups/backups-list.php:116
+#: lib/view/backups/backups-list.php:124
+msgid "Download"
+msgstr "Shkarko"
+
+#: lib/view/backups/backups-list.php:40
+msgid "Size"
+msgstr "Madhësi"
+
+#: lib/view/backups/backups-list.php:39
+msgid "Date"
+msgstr "Datë"
+
+#: lib/view/backups/backups-list.php:38
+msgid "Name"
+msgstr "Emër"
+
+#: lib/model/import/class-ai1wm-import-done.php:365
+#: lib/model/import/class-ai1wm-import-done.php:367
+#: lib/model/import/class-ai1wm-import-done.php:369
+msgid "Your site has been imported successfully!"
+msgstr "☺ Sajti juaj u importua me sukses!"
+
+#. translators: 1: Number of files, 2: Progress.
+#: lib/model/import/class-ai1wm-import-content.php:109
+#: lib/model/import/class-ai1wm-import-content.php:242
+msgid "Restoring %1$d files...<br />%2$d%% complete"
+msgstr "Po rikthehen %1$d kartela…<br />%2$d%% e plotësuar"
+
+#: lib/model/export/class-ai1wm-export-download.php:37
+msgid "Renaming export file..."
+msgstr "Po riemërtohet kartela e eksportimit…"
+
+#. translators: 1: Number of files, 2: Progress.
+#: lib/model/export/class-ai1wm-export-plugins.php:102
+#: lib/model/export/class-ai1wm-export-plugins.php:142
+msgid "Archiving %1$d plugin files...<br />%2$d%% complete"
+msgstr "Po arkivohen %1$d kartela shtojce…<br />%2$d%% e plotësuar"
+
+#: lib/controller/class-ai1wm-main-controller.php:719
+#: lib/controller/class-ai1wm-main-controller.php:720
+#: lib/view/backups/index.php:39
+msgid "Backups"
+msgstr "Kopjeruajtje"
+
+#: lib/controller/class-ai1wm-main-controller.php:710
+#: lib/controller/class-ai1wm-main-controller.php:711
+msgid "Import"
+msgstr "Importoje"
+
+#: lib/controller/class-ai1wm-main-controller.php:701
+#: lib/controller/class-ai1wm-main-controller.php:702
+msgid "Export"
+msgstr "Eksportoje"
+
+#: lib/view/main/multisite-notice.php:43
+msgid "Get multisite"
+msgstr "Merreni për shumësajtësh"

@@ -1,0 +1,209 @@
+# Translation of Plugins - Duplicate Page - Development (trunk) in Albanian
+# This file is distributed under the same license as the Plugins - Duplicate Page - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-12-04 20:22:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: sq_AL\n"
+"Project-Id-Version: Plugins - Duplicate Page - Development (trunk)\n"
+
+#. Plugin URI of the plugin
+#: duplicatepage.php
+msgid "https://duplicatepro.com/"
+msgstr "https://duplicatepro.com/"
+
+#: duplicatepage.php:131
+msgid "Unauthorized Access."
+msgstr "Hyrje e Paautorizuar."
+
+#: inc/admin-settings.php:85
+msgid "Save Changes"
+msgstr "Ruajini Ndryshimet"
+
+#: inc/admin-settings.php:13
+msgid "<div class=\"saving-txt\"><strong>Saving Please wait...</strong></div>"
+msgstr "<div class=\"saving-txt\"><strong>Po bëhet ruajtje, ju lutemi, prisni…</strong></div>"
+
+#: duplicatepage.php:357
+msgid "Never"
+msgstr "Kurrë"
+
+#: duplicatepage.php:357
+msgid "Not interested"
+msgstr "S’më intereson"
+
+#: duplicatepage.php:357
+msgid "Rate Us"
+msgstr "Vlerësonani"
+
+#: duplicatepage.php:357
+msgid "Rate us now"
+msgstr "Vlerësonani që tani"
+
+#: duplicatepage.php:357
+msgid "Later"
+msgstr "Më vonë"
+
+#: duplicatepage.php:357
+msgid "Remind me later"
+msgstr "Kujtoma më vonë"
+
+#: duplicatepage.php:357
+msgid "We love and care about you. Our team is putting maximum efforts to provide you the best functionalities. It would be highly appreciable if you could spend a couple of seconds to give a Nice Review to the plugin to appreciate our efforts. So we can work hard to provide new features regularly :)"
+msgstr "Ju duam dhe kujdesemi për ju. Ekipi ynë po bën maksimumin e përpjekjeve për t’ju dhënë funksionet më të mira. Do të ishte fort e çmueshme nëse do të harxhonit ca çaste për të na dhënë një shqyrtim të mirë të shtojcës, për të vlerësuar përpjekjet tona. Që të mund të punojmë fort për të dhënë veçori të reja rregullisht :)"
+
+#: duplicatepage.php:357
+msgid "close"
+msgstr "mbylle"
+
+#: duplicatepage.php:136
+msgid "Security check issue, Please try again."
+msgstr "Problem kontrolli sigurie, ju lutemi, riprovoni."
+
+#: duplicatepage.php:244
+msgid "Error! Post creation failed, could not find original post: "
+msgstr "Gabim! Krijimi i postimit dështoi, s’u gjet dot postimi origjinal:"
+
+#: duplicatepage.php:155
+msgid "No post to duplicate has been supplied!"
+msgstr "S’u dha postim për t’u përsëdytur!"
+
+#: duplicatepage.php:78
+msgid "Donate Now"
+msgstr "Dhuroni Tani"
+
+#: inc/admin-settings.php:49
+msgid "All Editors"
+msgstr "Krejt Përpunuesit"
+
+#: duplicatepage.php:261 duplicatepage.php:277 duplicatepage.php:301
+msgid "Duplicate this as "
+msgstr "Përsëdyte këtë si"
+
+#: inc/admin-settings.php:53
+msgid "Please select which editor you are using.<strong> Default: </strong> Classic Editor"
+msgstr "Ju lutemi, përzgjidhni cilin përpunues po përdorni.<strong> Parazgjedhje: </strong> Përpunuesin Klasik"
+
+#: inc/admin-settings.php:51
+msgid "Gutenberg Editor"
+msgstr "Përpunuesin Gutenberg"
+
+#: inc/admin-settings.php:50
+msgid "Classic Editor"
+msgstr "Përpunues Klasik"
+
+#: inc/admin-settings.php:46
+msgid "Choose Editor"
+msgstr "Zgjidhni Përpunues"
+
+#: duplicatepage.php:328
+msgid "Duplicate This as "
+msgstr "Përsëdyte Këtë si"
+
+#: inc/admin-settings.php:63
+msgid "Pending"
+msgstr "Pezull"
+
+#: inc/admin-settings.php:62
+msgid "Private"
+msgstr "Private"
+
+#: inc/admin-settings.php:61
+msgid "Publish"
+msgstr "Botoje"
+
+#: inc/admin-settings.php:60
+msgid "Draft"
+msgstr "Skicë"
+
+#. Author URI of the plugin
+#: duplicatepage.php
+msgid "https://profiles.wordpress.org/mndpsingh287/"
+msgstr "https://profiles.wordpress.org/mndpsingh287/"
+
+#. Author of the plugin
+#: duplicatepage.php
+msgid "mndpsingh287"
+msgstr "mndpsingh287"
+
+#. Description of the plugin
+#: duplicatepage.php
+msgid "Duplicate Posts, Pages and Custom Posts using single click."
+msgstr "Përsëdytni Postime, Faqe dhe Postime Vetjake, duke përdorur vetëm një klikim."
+
+#: duplicatepage.php:261 duplicatepage.php:277 duplicatepage.php:300
+msgid "Duplicate This"
+msgstr "Përsëdyte Këtë"
+
+#. Plugin Name of the plugin
+#: duplicatepage.php duplicatepage.php:91 duplicatepage.php:357
+msgid "Duplicate Page"
+msgstr "Përsëdyte Faqen"
+
+#: duplicatepage.php:78
+msgid "Donate"
+msgstr "Dhuroni"
+
+#: duplicatepage.php:77
+msgid "Settings"
+msgstr "Rregullime"
+
+#: inc/admin-settings.php:81
+msgid "Add a suffix for duplicate or clone post as Copy, Clone etc. It will show after title."
+msgstr "Shtoni një prapashtesë për postim të përsëdytur apo klonuar, si Kopje, Klon, etj. Do të shfaqet pas titullit."
+
+#: inc/admin-settings.php:78
+msgid "Duplicate Post Suffix"
+msgstr "Prapashtesë Postimi të Përsëdytur"
+
+#: inc/admin-settings.php:74
+msgid "Please select any post redirection, redirect you to selected after click on duplicate this link.<strong> Default: </strong>To All Posts List"
+msgstr "Ju lutemi, përzgjidhni çfarëdo ridrejtimi postimi, ju ridrejton te e përzgjedhura, pasi klikohet mbi “Përsëdyte këtë lidhje”.<strong>Parazgjedhje: </strong>Te Lista “Krejt Postimet”."
+
+#: inc/admin-settings.php:72
+msgid "To Duplicate Edit Screen"
+msgstr "Te Skena e Përpunimit të Përsëdytjes"
+
+#: inc/admin-settings.php:71
+msgid "To All Posts List"
+msgstr "Te Lista e Krejt Postimeve"
+
+#: inc/admin-settings.php:69
+msgid "Redirect to after click on <strong>Duplicate This Link</strong>"
+msgstr "Ku të ridrejtohet, pas klikimit mbi <strong>Përsëdyte Këtë Lidhje</strong>"
+
+#: inc/admin-settings.php:65
+msgid "Please select any post status you want to assign for duplicate post.<strong> Default: </strong> Draft"
+msgstr "Ju lutemi, përzgjidhni çfarëdo gjendjeje postimit që doni t’i caktohet postimit të përsëdytur.<strong> Parazgjedhje: </strong> Skicë."
+
+#: inc/admin-settings.php:57
+msgid "Duplicate Post Status"
+msgstr "Gjendje Postimi të Përsëdytur"
+
+#: inc/admin-settings.php:34
+msgid ""
+"<div class=\"error settings-error notice is-dismissible\" id=\"setting-error-settings_updated\"> \n"
+"  <p><strong>Settings not saved.</strong></p><button class=\"notice-dismiss button-custom-dismiss\" type=\"button\"><span class=\"screen-reader-text\">Dismiss this notice</span></button></div>"
+msgstr ""
+"<div class=\"error settings-error notice is-dismissible\" id=\"setting-error-settings_updated\"> \n"
+"  <p><strong>Rregullimet s’u ruajtën.</strong></p><button class=\"notice-dismiss button-custom-dismiss\" type=\"button\"><span class=\"screen-reader-text\">Hidhe tej këtë njoftim</span></button></div>"
+
+#: inc/admin-settings.php:31
+msgid ""
+"<div class=\"updated settings-error notice is-dismissible\" id=\"setting-error-settings_updated\"> \n"
+"    <p><strong>Settings saved.</strong></p><button class=\"notice-dismiss button-custom-dismiss\" type=\"button\"><span class=\"screen-reader-text\">Dismiss this notice</span></button></div>"
+msgstr ""
+"<div class=\"updated settings-error notice is-dismissible\" id=\"setting-error-settings_updated\"> \n"
+"    <p><strong>Rregullimet u ruajtën.</strong></p><button class=\"notice-dismiss button-custom-dismiss\" type=\"button\"><span class=\"screen-reader-text\">Hidhe tej këtë njoftime</span></button></div>"
+
+#: inc/admin-settings.php:9
+msgid "Buy PRO"
+msgstr "Blini Versionin Pro"
+
+#: inc/admin-settings.php:9
+msgid "Duplicate Page Settings "
+msgstr "Rregullime Faqeje Përsëdytjesh"

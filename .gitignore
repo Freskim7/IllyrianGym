@@ -1,0 +1,25 @@
+# WordPress configuration
+wp-config.php
+
+# Environment files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Local development files
+*.swp
+*.swo

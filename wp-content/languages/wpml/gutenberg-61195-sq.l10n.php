@@ -1,0 +1,2 @@
+<?php
+return ['messages'=>['75fa8dd9ecfbcccf7b79938183181508'=>'Ne ofrojmë parkim falas për të gjithë anëtarët në parkingun tonë nëntokësor. Thjesht skanoni kartën tuaj të anëtarësimit në hyrje. ','We provide free parking for all members in our underground parking lot. Simply scan your membership card at the entrance.'=>'Ne ofrojmë parkim falas për të gjithë anëtarët në parkingun tonë nëntokësor. Thjesht skanoni kartën tuaj të anëtarësimit në hyrje. ']];

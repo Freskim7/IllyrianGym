@@ -1,0 +1,476 @@
+# Translation of Plugins - All-in-One WP Migration and Backup - Stable (latest release) in Serbian
+# This file is distributed under the same license as the Plugins - All-in-One WP Migration and Backup - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-10-21 13:40:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: sr_RS\n"
+"Project-Id-Version: Plugins - All-in-One WP Migration and Backup - Stable (latest release)\n"
+
+#: lib/controller/class-ai1wm-main-controller.php:830
+msgid "View Error Log"
+msgstr "Прегледај дневник грешака"
+
+#: lib/view/reset/index.php:41
+msgid "Reset Hub Demo"
+msgstr "Ресетуј Хаб Демo"
+
+#: lib/view/reset/index.php:41
+msgid "Upgrade to Premium "
+msgstr "Надогради на Премиум "
+
+#: lib/view/reset/index.php:39
+msgid "Please note, the features displayed below are part of an image showcasing the potential of Reset Hub in its Premium version. To activate and enjoy these advanced features, <a href=\"https://servmask.com/products/unlimited-extension\" title=\"Upgrade to Premium\" target=\"_blank\">upgrade to Premium now</a>! Elevate your website management experience with these exclusive functionalities and priority support."
+msgstr "Молимо имајте на уму да су приказане функционалности део слике која показује потенцијал Reset Hub-а у његовом Премиум издању. Да бисте активирали и уживали у овим напредним функционалностима, <a href=\"https://servmask.com/products/unlimited-extension\" title=\"Upgrade to Premium\" target=\"_blank\">надоградите на Премиум сада</a>! Подигните своје управљање веб местом на виши ниво уз ове ексклузивне функционалности и приоритетну подршку."
+
+#: lib/view/reset/index.php:37
+msgid "Experience Full Functionality with Premium!"
+msgstr "Искусите пуну функционалност са Премиум верзијом!"
+
+#: lib/view/reset/index.php:36
+msgid "Star"
+msgstr "Звезда"
+
+#: lib/controller/class-ai1wm-main-controller.php:729
+#: lib/controller/class-ai1wm-main-controller.php:730
+msgid "Reset Hub"
+msgstr "Ресетуј Хаб"
+
+#: lib/view/main/premium-badge.php:33
+msgid "Premium"
+msgstr "Премиум"
+
+#: lib/view/schedules/index.php:111
+msgid "Leverage the simplicity of Dropbox for your backup needs. Direct your scheduled backups to be stored in Dropbox. It's secure, straightforward, and keeps your backups at your fingertips."
+msgstr "Искористите једноставност Dropbox-а за своје потребе за резервним копијама. Усмерите своје заказане резервне копије да се чувају у Dropbox-у. Сигурно је, једноставно и увек вам је на дохват руке."
+
+#: lib/view/schedules/index.php:137
+msgid "Enjoy the flexibility of FTP storage. Direct your scheduled backups to your own FTP server. You'll have full control over your data, providing you with a versatile and private storage solution."
+msgstr "Уживајте у флексибилности FTP складишта. Усмерите своје заказане резервне копије на сопствени FTP сервер. Имаћете потпуну контролу над својим подацима, обезбеђујући свестрано и приватно решење за складиштење."
+
+#: lib/view/schedules/index.php:163
+msgid "Tailor your backup schedules to fit the complexity of your WordPress Multisite. Choose to export the entire network or only a selection of subsites according to your requirements. Effortless management for even the most intricate site networks."
+msgstr "Прилагодите распоред прављења резервних копија сложености вашег Вордпрес мреже сајтова. Изаберите да извезете целу мрежу или само одабране подсајтове према вашим захтевима. Лако управљање чак и најсложенијим мрежама сајтова."
+
+#: lib/view/schedules/index.php:150
+msgid "We've got you covered with an array of supported storage providers. Whether you prefer Box, Amazon S3, WebDav or something else, you can choose the one that fits your needs best. Secure your backups exactly where you want them."
+msgstr "Покривамо све ваше потребе са подршком за низ различитих провајдере складишта. Без обзира да ли користите Box, Amazon S3, WebDav или неки други сервис, бирајте онај који вам највише одговара. Осигурајте своје резервне копије на месту које вам највише одговара."
+
+#: lib/view/schedules/index.php:124
+msgid "Harness the power of OneDrive for your backups. Set up your scheduled backups to be saved directly in your OneDrive. It's secure, integrated with your Microsoft account, and keeps your data readily accessible."
+msgstr "Искористите снагу OneDrive-а за своје резервне копије. Подесите заказане резервне копије да се чувају директно у вашем OneDrive-у. Сигурно је, интегрисано са вашим Microsoft налогом и омогућава вам лак приступ вашим подацима."
+
+#: lib/view/schedules/index.php:38
+msgid "Notification Settings"
+msgstr "Подешавања обавештења"
+
+#: lib/view/schedules/index.php:37 lib/view/schedules/index.php:56
+msgid "Backup Scheduler"
+msgstr "Распоред прављења резервних копија"
+
+#: lib/controller/class-ai1wm-main-controller.php:738
+#: lib/controller/class-ai1wm-main-controller.php:739
+msgid "Schedules"
+msgstr "Распореди"
+
+#: lib/view/schedules/index.php:98
+msgid "Benefit from the robustness of Google Drive. Schedule your backups to be saved directly to your Google Drive account. Simple, secure, and integrated into a platform you already use."
+msgstr "Искористите робустност Google Drive-а. Закажите прављење резервних копија које ће се директно чувати на вашем Google Drive налогу. Једноставно, сигурно и интегрисано у платформу коју већ користите."
+
+#: lib/view/schedules/index.php:85
+msgid "Manage your storage effectively with our flexible retention settings. Decide how many backups you want to keep at a time. Old backups are automatically cleared, keeping your storage neat and efficient."
+msgstr "Ефикасно управљајте својим складиштем уз наше променљиве величине подешавања задржавања. Одлучите колико резервних копија желите да чувате у исто време. Старије копије се аутоматски бришу, одржавајући ваше складиште уредним и ефикасним."
+
+#: lib/view/schedules/index.php:77 lib/view/schedules/index.php:82
+msgid "Retention settings"
+msgstr "Подешавања задржавања"
+
+#: lib/view/schedules/index.php:64 lib/view/schedules/index.php:69
+msgid "Notification settings"
+msgstr "Подешавања обавештења"
+
+#: lib/view/schedules/index.php:56 lib/view/schedules/index.php:69
+#: lib/view/schedules/index.php:82 lib/view/schedules/index.php:95
+#: lib/view/schedules/index.php:108 lib/view/schedules/index.php:121
+#: lib/view/schedules/index.php:134 lib/view/schedules/index.php:147
+#: lib/view/schedules/index.php:160
+msgid "Enable this feature"
+msgstr "Омогући ову функцију"
+
+#: lib/view/schedules/index.php:51
+msgid "Backup scheduler"
+msgstr "Распоред прављења резервних копија"
+
+#: lib/view/schedules/index.php:45 lib/view/schedules/index.php:155
+#: lib/view/schedules/index.php:160
+msgid "Multisite Schedules"
+msgstr "Распореди за мреже сајтова"
+
+#: lib/view/schedules/index.php:44 lib/view/schedules/index.php:142
+#: lib/view/schedules/index.php:147
+msgid "More Storage Providers"
+msgstr "Више провајдера складишта"
+
+#: lib/view/schedules/index.php:43 lib/view/schedules/index.php:129
+#: lib/view/schedules/index.php:134
+msgid "FTP Storage"
+msgstr "FTP складиште"
+
+#: lib/view/schedules/index.php:42 lib/view/schedules/index.php:116
+#: lib/view/schedules/index.php:121
+msgid "OneDrive Storage"
+msgstr "OneDrive складиште"
+
+#: lib/view/schedules/index.php:41 lib/view/schedules/index.php:103
+#: lib/view/schedules/index.php:108
+msgid "Dropbox Storage"
+msgstr "Dropbox складиште"
+
+#: lib/view/schedules/index.php:40 lib/view/schedules/index.php:90
+#: lib/view/schedules/index.php:95
+msgid "Google Drive Storage"
+msgstr "Google Drive складиште"
+
+#: lib/view/schedules/index.php:72
+msgid "Stay informed, not overwhelmed. Tailor your notification preferences to get updates that matter to you. Whether it's the status of each backup, or just critical alerts, control what you want to be notified about."
+msgstr "Останите информисани, али не и преоптерећени. Прилагодите своје ажурирање обавештења како бисте добијали само оне информације које су вам важне. Било да је у питању стање сваке резервне копије или само критични аларми, контролишите о чему желите да будете обавештени."
+
+#: lib/view/schedules/index.php:59
+msgid "Never worry about forgetting to back up your site again. Choose from various scheduling options, from daily to monthly, and we'll automate the rest. Backups happen like clockwork, giving you peace of mind and a solid safety net"
+msgstr "Никада више не брините око заборављања резервних копија вашег сајта. Изаберите различите опције заказивања, од дневних до месечних, а ми ћемо аутоматизовати све остало. Резервне копије ће се радити по распореду, пружајући вам мир и сигурну заштиту."
+
+#: lib/view/schedules/index.php:39
+msgid "Retention Settings"
+msgstr "Подешавања задржавања"
+
+#: lib/model/import/class-ai1wm-import-check-encryption.php:63
+msgid "Backup is encrypted. Please provide decryption password: "
+msgstr "Резервна копија је шифрована. Наведите лозинке за дешифровање: "
+
+#: lib/view/export/advanced-settings.php:66
+msgid "Password-protect and encrypt backups"
+msgstr "Заштите лозинком и шифрујте резерве копије"
+
+#: lib/view/export/advanced-settings.php:53
+msgid "A password is required"
+msgstr "Лозинка је потребна"
+
+#: lib/controller/class-ai1wm-main-controller.php:854
+#: lib/view/export/advanced-settings.php:58
+msgid "The passwords do not match"
+msgstr "Лозинке се не поклапају"
+
+#: lib/controller/class-ai1wm-main-controller.php:853
+#: lib/view/export/advanced-settings.php:56
+msgid "Repeat the password"
+msgstr "Поновите лозинку"
+
+#: lib/controller/class-ai1wm-main-controller.php:851
+#: lib/controller/class-ai1wm-main-controller.php:897
+msgid "Submit"
+msgstr "Пошаљи"
+
+#: lib/controller/class-ai1wm-main-controller.php:849
+msgid "The backup is encrypted"
+msgstr "Резервна копија је шифрована"
+
+#: lib/controller/class-ai1wm-main-controller.php:892
+msgid "Error"
+msgstr "Грешка"
+
+#: lib/view/backups/backups-list.php:131
+msgid "List"
+msgstr "Листа"
+
+#: lib/view/backups/backups-list.php:129
+msgid "Show backup content"
+msgstr "Прикажи садржај резервне копије"
+
+#: lib/view/backups/backups-list.php:122
+msgid "Downloading is not possible because backups directory is not accessible."
+msgstr "Преузимање није могуће јер директоријум резервних копија није доступан."
+
+#: lib/controller/class-ai1wm-main-controller.php:895
+msgid "Reading..."
+msgstr "Читање..."
+
+#: lib/controller/class-ai1wm-main-controller.php:894
+msgid "List the content of the backup"
+msgstr "Наведите садржај резервне копије"
+
+#: lib/view/backups/backups-list.php:95
+msgid "More"
+msgstr "Више"
+
+#. translators: 1: Number of backups.
+#: lib/controller/class-ai1wm-main-controller.php:828
+msgid "You have %d backups"
+msgstr "Имате %d резервне копије"
+
+#. translators: 1: Number of backups.
+#. translators: Numbers of backups.
+#: lib/controller/class-ai1wm-main-controller.php:826
+#: lib/view/main/backups.php:33
+msgid "You have %d backup"
+msgid_plural "You have %d backups"
+msgstr[0] "Имате %d резервну копију"
+msgstr[1] "Имате %d резервне копије"
+msgstr[2] "Имате %d резервних копија"
+
+#. translators: 1: Error message.
+#: lib/view/updater/error.php:33
+msgid "Error: %s"
+msgstr "Грешка: %s"
+
+#: lib/view/main/contact-support.php:33
+msgid "Contact Support"
+msgstr "Контактирајте подршку"
+
+#: lib/view/main/translate.php:33
+msgid "Translate"
+msgstr "Преведи"
+
+#: lib/controller/class-ai1wm-main-controller.php:846
+msgid "I have enough disk space"
+msgstr "Имам довољно простора"
+
+#: lib/view/backups/backups-list.php:48 lib/view/backups/index.php:51
+msgid "Refreshing backup list..."
+msgstr "Освежити листу резервних копија..."
+
+#: lib/view/import/button-file.php:33
+msgid "To choose a file please go inside the link and click on the browse button."
+msgstr "Како бисте одабрали датотеку, молимо вас да унутар везе кликнете на дугме претраживача."
+
+#: lib/controller/class-ai1wm-main-controller.php:844
+msgid "Finish"
+msgstr "Завршетак"
+
+#: lib/view/import/import-buttons.php:41
+msgid "Drag & Drop a backup to import it"
+msgstr "Превуци и пусти резервну копију за увоз"
+
+#: lib/controller/class-ai1wm-main-controller.php:252
+msgid "All-in-One WP Migration Command"
+msgstr "All-in-One WP Migration команда"
+
+#: lib/controller/class-ai1wm-main-controller.php:817
+#: lib/model/export/class-ai1wm-export-init.php:47
+msgid "Preparing to export..."
+msgstr "Припрема за извоз..."
+
+#: lib/controller/class-ai1wm-main-controller.php:823
+#: lib/controller/class-ai1wm-main-controller.php:842
+#: lib/controller/class-ai1wm-main-controller.php:896
+msgid "Close"
+msgstr "Затвори"
+
+#: lib/controller/class-ai1wm-main-controller.php:824
+msgid "Stop export"
+msgstr "Зауставите извоз"
+
+#. translators: Human time diff
+#: lib/view/backups/backups-list.php:84
+msgid "%s ago"
+msgstr "пре %s"
+
+#: lib/controller/class-ai1wm-main-controller.php:848
+msgid "Please do not close this browser window or your import will fail"
+msgstr "Немојте затварати овај прозор прегледача, јер увоз неће успети"
+
+#: lib/controller/class-ai1wm-main-controller.php:845
+msgid "Proceed"
+msgstr "Наставити"
+
+#: lib/controller/class-ai1wm-main-controller.php:847
+msgid "Continue"
+msgstr "Наставити"
+
+#: lib/controller/class-ai1wm-main-controller.php:843
+msgid "Stop import"
+msgstr "Заустави увоз"
+
+#. translators: Progress.
+#: lib/model/export/class-ai1wm-export-database-file.php:88
+#: lib/model/export/class-ai1wm-export-database-file.php:127
+msgid "Archiving database...<br />%d%% complete"
+msgstr "Архивирање базе података...<br />%d%% је завршено"
+
+#. translators: Progress.
+#: lib/model/import/class-ai1wm-import-database.php:81
+#: lib/model/import/class-ai1wm-import-database.php:1037
+msgid "Restoring database...<br />%d%% complete"
+msgstr "Враћање базе података...<br />%d%% је завршено"
+
+#: lib/controller/class-ai1wm-main-controller.php:1367
+msgid "Monthly"
+msgstr "Месечно"
+
+#: lib/controller/class-ai1wm-main-controller.php:1363
+msgid "Weekly"
+msgstr "Недељно"
+
+#: lib/controller/class-ai1wm-main-controller.php:834
+msgid "Preparing to import..."
+msgstr "Припрема за увоз..."
+
+#: lib/model/import/class-ai1wm-import-mu-plugins.php:37
+msgid "Activating mu-plugins..."
+msgstr "Активирање му-додатака ..."
+
+#: lib/model/import/class-ai1wm-import-blogs.php:37
+msgid "Preparing blogs..."
+msgstr "Припрема блогова..."
+
+#: lib/controller/class-ai1wm-main-controller.php:812
+#: lib/view/updater/check.php:33
+msgid "Check for updates"
+msgstr "Провери ажурирања"
+
+#. Author of the plugin
+#: all-in-one-wp-migration.php
+msgid "ServMask"
+msgstr "ServMask"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: all-in-one-wp-migration.php
+msgid "https://servmask.com/"
+msgstr "https://servmask.com/"
+
+#: lib/view/import/index.php:39
+msgid "Import Site"
+msgstr "Увези локацију"
+
+#: lib/view/import/import-buttons.php:45
+msgid "Import From"
+msgstr "Увоз из"
+
+#: lib/view/export/index.php:39
+msgid "Export Site"
+msgstr "Извези локацију"
+
+#: lib/view/export/help-section.php:52
+msgid "Once the file is successfully downloaded on your computer, you can import it to any of your WordPress sites."
+msgstr "Након што се датотека успешно преузме на ваш рачунар, можете је увести на било коју од ваших Вордпрес локација."
+
+#: lib/view/export/help-section.php:48
+msgid "Press \"Export\" button and the site archive file will pop up in your browser."
+msgstr "Притисните дугме \"Извези\" и датотека претраживача ће се појавити у вашем прегледачу."
+
+#: lib/view/export/help-section.php:44
+msgid "In the advanced settings section you can configure more precisely the way of exporting."
+msgstr "У одељку напредних подешавања можете прецизније конфигурисати начин извоза."
+
+#: lib/view/export/advanced-settings.php:38
+msgid "(click to expand)"
+msgstr "(кликните за проширење)"
+
+#: lib/view/export/advanced-settings.php:37
+msgid "Advanced options"
+msgstr "Напредне опције"
+
+#: lib/view/common/share-buttons.php:73
+msgid "Tweet"
+msgstr "Твит"
+
+#: lib/view/export/find-replace.php:54
+msgid "Add"
+msgstr "Додај"
+
+#: lib/view/export/find-replace.php:41
+msgid "in the database"
+msgstr "у бази података"
+
+#: lib/view/export/find-replace.php:40
+msgid "<another-text>"
+msgstr "<another-text>"
+
+#: lib/view/export/find-replace.php:39 lib/view/export/find-replace.php:47
+msgid "Replace with"
+msgstr "Replace with"
+
+#: lib/view/export/find-replace.php:38
+msgid "<text>"
+msgstr "<text>"
+
+#: lib/view/export/button-file.php:33 lib/view/import/button-file.php:34
+msgid "File"
+msgstr "Датотека"
+
+#: lib/view/common/leave-feedback.php:72
+msgid "Send"
+msgstr "Пошаљи"
+
+#: lib/view/common/sidebar-right.php:41
+msgid "Leave Feedback"
+msgstr "Напишите утисак"
+
+#: lib/view/backups/index.php:59
+msgid "Create backup"
+msgstr "Створити резервну копију"
+
+#: lib/view/backups/backups-list.php:101 lib/view/backups/backups-list.php:103
+msgid "Restore"
+msgstr "Врати"
+
+#: lib/view/backups/backups-list.php:109 lib/view/backups/backups-list.php:111
+#: lib/view/backups/backups-list.php:114 lib/view/backups/backups-list.php:116
+#: lib/view/backups/backups-list.php:124
+msgid "Download"
+msgstr "Преузми"
+
+#: lib/view/backups/backups-list.php:40
+msgid "Size"
+msgstr "Величина"
+
+#: lib/controller/class-ai1wm-main-controller.php:719
+#: lib/controller/class-ai1wm-main-controller.php:720
+#: lib/view/backups/index.php:39
+msgid "Backups"
+msgstr "Резервне копије"
+
+#: lib/controller/class-ai1wm-main-controller.php:710
+#: lib/controller/class-ai1wm-main-controller.php:711
+msgid "Import"
+msgstr "Увоз"
+
+#: lib/controller/class-ai1wm-main-controller.php:701
+#: lib/controller/class-ai1wm-main-controller.php:702
+msgid "Export"
+msgstr "Извоз"
+
+#: lib/view/main/multisite-notice.php:43
+msgid "Get multisite"
+msgstr "Нађите више локација"
+
+#: lib/view/backups/backups-list.php:38
+msgid "Name"
+msgstr "Име"
+
+#: lib/model/import/class-ai1wm-import-done.php:365
+#: lib/model/import/class-ai1wm-import-done.php:367
+#: lib/model/import/class-ai1wm-import-done.php:369
+msgid "Your site has been imported successfully!"
+msgstr "Ваша локација је успешно увезена!"
+
+#: lib/view/backups/backups-list.php:136 lib/view/backups/backups-list.php:138
+msgid "Delete"
+msgstr "Обриши"
+
+#: lib/view/common/leave-feedback.php:69
+msgid "Cancel"
+msgstr "Одустани"
+
+#: lib/view/backups/backups-list.php:39
+msgid "Date"
+msgstr "Датум"
+
+#: lib/controller/class-ai1wm-main-controller.php:852
+#: lib/view/export/advanced-settings.php:51
+msgid "Enter a password"
+msgstr "Унесите лозинку"
